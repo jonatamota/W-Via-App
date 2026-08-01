@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — W-Via</title>
+  <style>
+    :root {
+      --ink: #14120f;
+      --paper: #fafaf8;
+      --gold: #c9a227;
+      --line: #e4e1d8;
+      --muted: #6b6a63;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Georgia", "Iowan Old Style", serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 3rem 1.5rem 2.5rem;
+      text-align: center;
+      border-bottom: 3px solid var(--gold);
+    }
+
+    header .brand {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 400;
+    }
+
+    header p {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #b8b6ac;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    nav.toc {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--gold);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 3rem;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    nav.toc p {
+      margin: 0 0 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    nav.toc ol {
+      margin: 0;
+      padding-left: 1.2rem;
+      columns: 2;
+    }
+
+    nav.toc a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    nav.toc a:hover,
+    nav.toc a:focus {
+      color: var(--gold);
+    }
+
+    section {
+      margin-bottom: 2.75rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    h2 {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: var(--ink);
+    }
+
+    h2 span.num {
+      color: var(--gold);
+      margin-right: 0.5rem;
+    }
+
+    p,
+    li {
+      font-size: 1rem;
+      color: #2a2924;
+    }
+
+    strong {
+      color: var(--ink);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.92rem;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 0.65rem 0.75rem;
+      border: 1px solid var(--line);
+    }
+
+    th {
+      background: var(--ink);
+      color: var(--paper);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    tr:nth-child(even) td {
+      background: #f2f0e9;
+    }
+
+    .placeholder {
+      background: #fff4d6;
+      padding: 0.05em 0.35em;
+      border-radius: 3px;
+      font-style: italic;
+    }
+
+    .contact-box {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 1.75rem;
+      text-align: center;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .contact-box a {
+      color: var(--gold);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem 3rem;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 560px) {
+      nav.toc ol {
+        columns: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="brand">W-Via</div>
+    <h1>Política de Privacidade</h1>
+    <p>Última atualização: 01 de agosto de 2026</p>
+  </header>
+
+  <main>
+
+    <nav class="toc" aria-label="Sumário">
+      <p>Sumário</p>
+      <ol>
+        <li><a href="#controlador">Controlador de dados</a></li>
+        <li><a href="#dados">Dados coletados</a></li>
+        <li><a href="#finalidade">Finalidade e base legal</a></li>
+        <li><a href="#compartilhamento">Compartilhamento</a></li>
+        <li><a href="#seguranca">Armazenamento e segurança</a></li>
+        <li><a href="#retencao">Retenção</a></li>
+        <li><a href="#direitos">Direitos do titular</a></li>
+        <li><a href="#menores">Menores de idade</a></li>
+        <li><a href="#alteracoes">Alterações</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ol>
+    </nav>
+
+    <section id="controlador">
+      <h2><span class="num">01</span>Controlador de dados</h2>
+      <p>Esta política descreve como coletamos, usamos, armazenamos e protegemos os dados pessoais dos usuários do
+        aplicativo, em conformidade com a Lei Geral de Proteção de Dados (Lei 13.709/2018 — LGPD).</p>
+    </section>
+
+    <section id="dados">
+      <h2><span class="num">02</span>Dados que coletamos</h2>
+      <p><strong>Dados de cadastro:</strong> nome, e-mail, telefone, CPF/CNPJ, dados de autenticação.</p>
+      <p><strong>Dados de uso:</strong> localização (para roteirização e recibos), histórico de corridas/traslados,
+        dados de assinatura e pagamento.</p>
+      <p><strong>Dados sensíveis (art. 11 LGPD):</strong> ao gerar Declarações de Óbito, o app processa dados relativos
+        à pessoa falecida (nome, idade, sexo biológico, causa da morte, dados de saúde) e dados de
+        familiares/responsáveis. Esses dados são inseridos pelo agente funerário usuário do app, sob sua
+        responsabilidade quanto à veracidade e à base legal para tratamento.</p>
+    </section>
+
+    <section id="finalidade">
+      <h2><span class="num">03</span>Finalidade e base legal</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Finalidade</th>
+            <th>Base legal (LGPD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Prestação do serviço (cadastro, roteirização, recibos)</td>
+            <td>Execução de contrato (art. 7º, V)</td>
+          </tr>
+          <tr>
+            <td>Geração de Declaração de Óbito</td>
+            <td>Cumprimento de obrigação legal / tutela da saúde (art. 7º, II e VIII; art. 11, II)</td>
+          </tr>
+          <tr>
+            <td>Cobrança de assinatura</td>
+            <td>Execução de contrato</td>
+          </tr>
+          <tr>
+            <td>Comunicações de produto</td>
+            <td>Legítimo interesse (art. 7º, IX)</td>
+          </tr>
+          <tr>
+            <td>Melhoria do app e métricas</td>
+            <td>Legítimo interesse</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="compartilhamento">
+      <h2><span class="num">04</span>Compartilhamento de dados</h2>
+      <p>Compartilhamos dados com:</p>
+      <ul>
+        <li><strong>Supabase</strong> (autenticação, banco de dados e armazenamento) — operador de dados, sujeito às
+          suas próprias garantias de segurança.</li>
+        <li><strong>Processador de pagamento</strong> da assinatura mensal.</li>
+        <li><strong>Provedores de mapa/roteirização</strong> (dados de localização, quando aplicável).</li>
+        <li>Autoridades públicas, quando exigido por lei.</li>
+      </ul>
+      <p>Não vendemos dados pessoais a terceiros.</p>
+    </section>
+
+    <section id="seguranca">
+      <h2><span class="num">05</span>Armazenamento e segurança</h2>
+      <p>Os dados são armazenados em servidores do Supabase, com controle de acesso via Row Level Security (RLS),
+        garantindo que cada usuário acesse apenas seus próprios registros. Adotamos medidas técnicas e administrativas
+        para proteger os dados contra acesso não autorizado, perda ou alteração.</p>
+    </section>
+
+    <section id="retencao">
+      <h2><span class="num">06</span>Retenção</h2>
+      <p>Mantemos os dados pelo tempo necessário às finalidades descritas nesta política ou conforme exigido por
+        obrigação legal (ex.: documentos relacionados a óbito podem ter prazo de guarda legal específico). Após esse
+        período, os dados são eliminados ou anonimizados.</p>
+    </section>
+
+    <section id="direitos">
+      <h2><span class="num">07</span>Direitos do titular</h2>
+      <p>Nos termos do art. 18 da LGPD, você pode solicitar: confirmação de tratamento, acesso, correção, anonimização,
+        portabilidade, eliminação, informação sobre compartilhamento e revogação de consentimento. Solicitações via
+        <span class="placeholder">[e-mail de contato]</span>.
+      </p>
+    </section>
+
+    <section id="menores">
+      <h2><span class="num">08</span>Menores de idade</h2>
+      <p>O W-Via não é destinado a menores de 18 anos. Não coletamos intencionalmente dados de menores como usuários do
+        serviço.</p>
+    </section>
+
+    <section id="alteracoes">
+      <h2><span class="num">09</span>Alterações desta política</h2>
+      <p>Podemos atualizar esta política periodicamente. Alterações relevantes serão comunicadas dentro do app.</p>
+    </section>
+
+    <section id="contato">
+      <h2><span class="num">10</span>Contato</h2>
+      <div class="contact-box">
+        <p>Dúvidas sobre esta política:</p>
+        <a href="mailto:contato@wvia.com.br">[jonatamotaa@gmail.com]</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 W-Via. Todos os direitos reservados.
+  </footer>
+
+</body>
+
+</html>
