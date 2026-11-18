@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<baseline version="1.0">
+    <file name="build.gradle.kts">
+        <error line="27" column="5" source="standard:property-naming" />
+        <error line="28" column="5" source="standard:property-naming" />
+        <error line="29" column="5" source="standard:property-naming" />
+        <error line="30" column="5" source="standard:property-naming" />
+        <error line="32" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="93" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="146" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/androidTest/java/com/w_via/ExampleInstrumentedTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="24" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/MainActivity.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="52" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="128" column="29" source="standard:multiline-if-else" />
+        <error line="176" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/NavigationManager.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="7" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/WViaApp.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="23" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/AdvancedMonthCarousel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="145" column="48" source="standard:multiline-if-else" />
+        <error line="146" column="34" source="standard:multiline-if-else" />
+        <error line="150" column="56" source="standard:multiline-if-else" />
+        <error line="151" column="34" source="standard:multiline-if-else" />
+        <error line="177" column="56" source="standard:multiline-if-else" />
+        <error line="178" column="34" source="standard:multiline-if-else" />
+        <error line="186" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/CustomSwitchValues.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="69" column="1" source="standard:indent" />
+        <error line="69" column="16" source="standard:multiline-if-else" />
+        <error line="71" column="17" source="standard:multiline-if-else" />
+        <error line="77" column="17" source="standard:parameter-list-spacing" />
+        <error line="77" column="17" source="standard:paren-spacing" />
+        <error line="96" column="16" source="standard:parameter-list-spacing" />
+        <error line="96" column="16" source="standard:paren-spacing" />
+        <error line="124" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/DynamicBlurBox.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="33" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/InfiniteWordCarousel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="140" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/InfoCard.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="206" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/TextTerms.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="58" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/appbuttons/CloseButton.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="29" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="48" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/appbuttons/ConfirmButton.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="44" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/appbuttons/CustomActionButton.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="87" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="109" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/appbuttons/PillSelection.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="121" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/appbuttons/PrimaryButton.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="69" column="30" source="standard:statement-wrapping" />
+        <error line="69" column="45" source="standard:statement-wrapping" />
+        <error line="69" column="61" source="standard:statement-wrapping" />
+        <error line="119" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/BottomSheetContador.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="91" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/CalendarBottom.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="251" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/CustomBottomSheet.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="126" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/ModalConfirmation.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="92" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/ModalSheetGenerico.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/bottomsheets/ModalSheetHours.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="41" column="52" source="standard:no-multi-spaces" />
+        <error line="59" column="53" source="standard:multiline-if-else" />
+        <error line="60" column="18" source="standard:multiline-if-else" />
+        <error line="65" column="39" source="standard:multiline-if-else" />
+        <error line="66" column="18" source="standard:multiline-if-else" />
+        <error line="66" column="20" source="standard:no-multi-spaces" />
+        <error line="177" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="196" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="322" column="60" source="standard:no-multi-spaces" />
+        <error line="403" column="29" source="standard:multiline-if-else" />
+        <error line="405" column="29" source="standard:multiline-if-else" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/cards/CardDefault.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="13" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="29" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="29" column="1" source="standard:no-empty-first-line-in-method-block" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/BankNumberField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="65" column="1" source="standard:no-trailing-spaces" />
+        <error line="86" column="1" source="standard:no-trailing-spaces" />
+        <error line="123" column="1" source="standard:no-trailing-spaces" />
+        <error line="138" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="145" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="182" column="44" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/CnpjSearchField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/CustomTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="117" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="121" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="227" column="76" source="standard:multiline-if-else" />
+        <error line="228" column="46" source="standard:multiline-if-else" />
+        <error line="229" column="83" source="standard:multiline-if-else" />
+        <error line="230" column="46" source="standard:multiline-if-else" />
+        <error line="245" column="41" source="standard:multiline-if-else" />
+        <error line="246" column="42" source="standard:multiline-if-else" />
+        <error line="337" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/CustomTextFieldComponent.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="53" column="1" source="standard:no-trailing-spaces" />
+        <error line="73" column="56" source="standard:no-trailing-spaces" />
+        <error line="130" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/OutlinedFieldBox.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="96" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/PasswordTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="29" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/PhoneTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="44" column="46" source="standard:multiline-if-else" />
+        <error line="45" column="30" source="standard:multiline-if-else" />
+        <error line="50" column="46" source="standard:multiline-if-else" />
+        <error line="51" column="30" source="standard:multiline-if-else" />
+        <error line="124" column="66" source="standard:function-expression-body" />
+        <error line="133" column="66" source="standard:function-expression-body" />
+        <error line="260" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/designsystem/input/SearchTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="53" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/appnavigation/AppNavigation.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="52" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="66" column="78" source="standard:function-expression-body" />
+        <error line="72" column="78" source="standard:function-expression-body" />
+        <error line="81" column="81" source="standard:function-expression-body" />
+        <error line="87" column="81" source="standard:function-expression-body" />
+        <error line="97" column="44" source="standard:function-expression-body" />
+        <error line="106" column="43" source="standard:function-expression-body" />
+        <error line="115" column="47" source="standard:function-expression-body" />
+        <error line="124" column="46" source="standard:function-expression-body" />
+        <error line="145" column="1" source="standard:no-empty-first-line-in-method-block" />
+    </file>
+    <file name="src/main/java/com/w_via/features/appnavigation/BottomNavItem.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/appnavigation/NavigationBar.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="46" column="35" source="standard:parameter-list-wrapping" />
+        <error line="129" column="56" source="standard:multiline-if-else" />
+        <error line="130" column="38" source="standard:multiline-if-else" />
+        <error line="159" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/appnavigation/TopBar.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="47" column="44" source="standard:paren-spacing" />
+        <error line="110" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/AuthManager.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/AuthTokenProvider.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="5" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/SupabaseAuthTokenProvider.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="10" column="52" source="standard:function-expression-body" />
+        <error line="13" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/componentes/ProgressComponent.kt">
+        <error line="109" column="33" source="standard:multiline-if-else" />
+        <error line="111" column="33" source="standard:multiline-if-else" />
+        <error line="117" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/finishlogin/FinishCreateAuthScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="121" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="142" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="211" column="28" source="standard:multiline-if-else" />
+        <error line="224" column="85" source="standard:function-expression-body" />
+        <error line="244" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="247" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/finishlogin/FinishCreateAuthViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="8" column="1" source="standard:no-unused-imports" />
+        <error line="38" column="1" source="standard:indent" />
+        <error line="39" column="1" source="standard:indent" />
+        <error line="143" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/loginAuth/LoginGoogleViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="86" column="30" source="standard:function-expression-body" />
+        <error line="229" column="1" source="standard:no-blank-line-before-rbrace" />
+    </file>
+    <file name="src/main/java/com/w_via/features/authentication/loginAuth/LoginScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="33" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="47" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="135" column="1" source="standard:indent" />
+        <error line="199" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="204" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/components/AccordionSelect.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/components/AutocompleteTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/components/CpfSearchField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/components/UFAndCityFields.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/datamycnpj/LogoStorage.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="30" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/datamycnpj/MyCnpjScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="17" column="1" source="standard:no-unused-imports" />
+        <error line="47" column="33" source="standard:no-multi-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/features/datamycnpj/UploadFileScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="108" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="121" column="21" source="standard:multiline-if-else" />
+        <error line="123" column="21" source="standard:multiline-if-else" />
+        <error line="182" column="45" source="standard:multiline-if-else" />
+        <error line="184" column="45" source="standard:multiline-if-else" />
+        <error line="330" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/datamycnpj/UploadFileViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="120" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="143" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="200" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="208" column="55" source="standard:function-expression-body" />
+        <error line="234" column="93" source="standard:function-expression-body" />
+        <error line="266" column="63" source="standard:function-expression-body" />
+        <error line="301" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="310" column="69" source="standard:function-expression-body" />
+        <error line="336" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="344" column="60" source="standard:function-expression-body" />
+        <error line="371" column="48" source="standard:function-expression-body" />
+        <error line="379" column="44" source="standard:function-expression-body" />
+        <error line="431" column="58" source="standard:function-expression-body" />
+        <error line="439" column="49" source="standard:function-expression-body" />
+        <error line="443" column="49" source="standard:function-expression-body" />
+        <error line="447" column="52" source="standard:function-expression-body" />
+        <error line="453" column="53" source="standard:function-expression-body" />
+        <error line="461" column="26" source="standard:string-template" />
+        <error line="463" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/CasamentoCartorioInfo.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="117" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DadosObito.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="64" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclaracaoDetalheScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="144" column="51" source="standard:string-template" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclaracaoObitoMapper.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="34" column="16" source="standard:multiline-if-else" />
+        <error line="42" column="16" source="standard:multiline-if-else" />
+        <error line="46" column="16" source="standard:multiline-if-else" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclaracaoObitoScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="300" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclaracaoObitoThresholds.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="15" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclaracaoObitoViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="83" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclarationFieldErrors.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclarationRules.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/DeclarationScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="7" column="1" source="standard:no-unused-imports" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/ExcecaoIndicator.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/FieldValidators.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/LabeledTextField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="78" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="82" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="108" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/Sexo.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="10" column="15" source="standard:enum-wrapping" />
+        <error line="10" column="23" source="standard:enum-wrapping" />
+        <error line="10" column="35" source="standard:enum-wrapping" />
+        <error line="10" column="42" source="standard:enum-wrapping" />
+        <error line="11" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/TipoLocalObito.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="8" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/ConjugeFilhosSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DadosFalecidoSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DadosObitoSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclaranteSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclarationBottomSheets.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclarationDraftViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclarationGridScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="12" column="1" source="standard:no-unused-imports" />
+        <error line="143" column="1" source="standard:indent" />
+        <error line="144" column="1" source="standard:indent" />
+        <error line="145" column="1" source="standard:indent" />
+        <error line="146" column="1" source="standard:indent" />
+        <error line="147" column="1" source="standard:indent" />
+        <error line="148" column="1" source="standard:indent" />
+        <error line="149" column="1" source="standard:indent" />
+        <error line="150" column="1" source="standard:indent" />
+        <error line="151" column="1" source="standard:indent" />
+        <error line="152" column="1" source="standard:indent" />
+        <error line="153" column="1" source="standard:indent" />
+        <error line="154" column="1" source="standard:indent" />
+        <error line="155" column="1" source="standard:indent" />
+        <error line="156" column="1" source="standard:indent" />
+        <error line="157" column="1" source="standard:indent" />
+        <error line="158" column="1" source="standard:indent" />
+        <error line="159" column="1" source="standard:indent" />
+        <error line="160" column="1" source="standard:indent" />
+        <error line="161" column="1" source="standard:indent" />
+        <error line="162" column="1" source="standard:indent" />
+        <error line="163" column="1" source="standard:indent" />
+        <error line="164" column="1" source="standard:indent" />
+        <error line="165" column="1" source="standard:indent" />
+        <error line="166" column="1" source="standard:indent" />
+        <error line="167" column="1" source="standard:indent" />
+        <error line="168" column="1" source="standard:indent" />
+        <error line="169" column="1" source="standard:indent" />
+        <error line="170" column="1" source="standard:indent" />
+        <error line="171" column="1" source="standard:indent" />
+        <error line="172" column="1" source="standard:indent" />
+        <error line="173" column="1" source="standard:indent" />
+        <error line="174" column="1" source="standard:indent" />
+        <error line="175" column="1" source="standard:indent" />
+        <error line="176" column="1" source="standard:indent" />
+        <error line="177" column="1" source="standard:indent" />
+        <error line="178" column="1" source="standard:indent" />
+        <error line="179" column="1" source="standard:indent" />
+        <error line="180" column="1" source="standard:indent" />
+        <error line="181" column="1" source="standard:indent" />
+        <error line="182" column="1" source="standard:indent" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclarationSection.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/DeclarationSectionScaffold.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/FiliacaoSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/ObsSectionScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/createdeclaration/SectionDescriptor.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/AppDatabase.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/DeclaracaoDao.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/DeclaracaoEntity.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/DeclaracaoMapper.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/DeclaracaoRepository.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/data/UserIdProvider.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/layouts/DeclaracaoObitoPDFLayout.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/declaration/state/state.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="182" column="1" source="standard:indent" />
+        <error line="196" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/HomeRouteScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="84" column="1" source="standard:indent" />
+        <error line="85" column="1" source="standard:indent" />
+        <error line="86" column="1" source="standard:indent" />
+        <error line="87" column="1" source="standard:indent" />
+        <error line="88" column="1" source="standard:indent" />
+        <error line="89" column="1" source="standard:indent" />
+        <error line="106" column="1" source="standard:indent" />
+        <error line="110" column="41" source="standard:condition-wrapping" />
+        <error line="113" column="19" source="standard:multiline-if-else" />
+        <error line="114" column="22" source="standard:multiline-if-else" />
+        <error line="308" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="316" column="1" source="standard:indent" />
+        <error line="383" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="393" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="434" column="49" source="standard:multiline-if-else" />
+        <error line="435" column="26" source="standard:multiline-if-else" />
+        <error line="503" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/HomeRouteViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="48" column="17" source="standard:backing-property-naming" />
+        <error line="49" column="17" source="standard:backing-property-naming" />
+        <error line="61" column="17" source="standard:backing-property-naming" />
+        <error line="113" column="17" source="standard:backing-property-naming" />
+        <error line="120" column="17" source="standard:property-naming" />
+        <error line="121" column="17" source="standard:property-naming" />
+        <error line="122" column="17" source="standard:property-naming" />
+        <error line="123" column="17" source="standard:property-naming" />
+        <error line="124" column="17" source="standard:property-naming" />
+        <error line="125" column="17" source="standard:property-naming" />
+        <error line="134" column="20" source="standard:no-multi-spaces" />
+        <error line="134" column="33" source="standard:no-multi-spaces" />
+        <error line="135" column="17" source="standard:no-multi-spaces" />
+        <error line="135" column="33" source="standard:no-multi-spaces" />
+        <error line="136" column="19" source="standard:no-multi-spaces" />
+        <error line="136" column="33" source="standard:no-multi-spaces" />
+        <error line="137" column="21" source="standard:no-multi-spaces" />
+        <error line="137" column="33" source="standard:no-multi-spaces" />
+        <error line="138" column="20" source="standard:no-multi-spaces" />
+        <error line="138" column="33" source="standard:no-multi-spaces" />
+        <error line="139" column="23" source="standard:no-multi-spaces" />
+        <error line="139" column="33" source="standard:no-multi-spaces" />
+        <error line="140" column="19" source="standard:no-multi-spaces" />
+        <error line="140" column="32" source="standard:no-multi-spaces" />
+        <error line="231" column="1" source="standard:indent" />
+        <error line="294" column="30" source="standard:no-multi-spaces" />
+        <error line="294" column="53" source="standard:no-multi-spaces" />
+        <error line="298" column="30" source="standard:no-multi-spaces" />
+        <error line="298" column="74" source="standard:no-multi-spaces" />
+        <error line="422" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="468" column="26" source="standard:string-template" />
+        <error line="477" column="41" source="standard:string-template" />
+        <error line="479" column="15" source="standard:string-template" />
+        <error line="512" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/PlaceSuggestion.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="13" column="14" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/SearchDestinationScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="62" column="2" source="standard:curly-spacing" />
+        <error line="62" column="2" source="standard:function-start-of-body-spacing" />
+        <error line="66" column="1" source="standard:no-trailing-spaces" />
+        <error line="228" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/SearchDestinationViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="44" column="17" source="standard:property-naming" />
+        <error line="45" column="1" source="standard:no-trailing-spaces" />
+        <error line="165" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/components/AutocompleteItems.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="3" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="120" column="16" source="standard:paren-spacing" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/components/CalculatorBoxBottom.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="32" column="19" source="standard:property-naming" />
+        <error line="168" column="1" source="standard:no-empty-first-line-in-method-block" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/components/ResultCard.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="44" column="38" source="standard:parameter-list-spacing" />
+        <error line="44" column="39" source="standard:no-multi-spaces" />
+        <error line="45" column="40" source="standard:no-multi-spaces" />
+        <error line="45" column="41" source="standard:value-parameter-comment" />
+        <error line="275" column="1" source="standard:indent" />
+        <error line="290" column="51" source="standard:function-expression-body" />
+        <error line="292" column="1" source="standard:indent" />
+        <error line="293" column="1" source="standard:indent" />
+        <error line="294" column="1" source="standard:indent" />
+        <error line="295" column="1" source="standard:indent" />
+        <error line="296" column="1" source="standard:indent" />
+        <error line="331" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/home/components/RoutesBar.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="206" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/initscreens/InitStepScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="58" column="1" source="standard:indent" />
+        <error line="59" column="1" source="standard:indent" />
+        <error line="60" column="1" source="standard:indent" />
+        <error line="121" column="1" source="standard:no-trailing-spaces" />
+        <error line="153" column="29" source="standard:multiline-if-else" />
+        <error line="155" column="29" source="standard:multiline-if-else" />
+        <error line="188" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="251" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="264" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/initscreens/PrivacyPolicyScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="41" column="55" source="standard:function-expression-body" />
+        <error line="130" column="5" source="standard:curly-spacing" />
+        <error line="141" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="172" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/features/koin/SupabaseModule.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="25" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/koin/databaseModule.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/koin/syncModule.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/koin/viewModelModule.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/graphhopperAPI/GraphHopperService.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="13" column="28" source="standard:parameter-list-wrapping" />
+        <error line="14" column="29" source="standard:parameter-list-wrapping" />
+        <error line="26" column="1" source="standard:indent" />
+        <error line="27" column="1" source="standard:indent" />
+        <error line="28" column="1" source="standard:indent" />
+        <error line="29" column="1" source="standard:indent" />
+        <error line="30" column="1" source="standard:indent" />
+        <error line="31" column="1" source="standard:indent" />
+        <error line="32" column="1" source="standard:indent" />
+        <error line="121" column="26" source="standard:no-trailing-spaces" />
+        <error line="145" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/graphhopperAPI/RouteGeometryResult.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/hereAPI/AddressSearchField.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="91" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/hereAPI/HereGeocodeService.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="12" column="1" source="standard:indent" />
+        <error line="13" column="1" source="standard:indent" />
+        <error line="14" column="1" source="standard:indent" />
+        <error line="15" column="1" source="standard:indent" />
+        <error line="16" column="1" source="standard:indent" />
+        <error line="17" column="1" source="standard:indent" />
+        <error line="18" column="1" source="standard:indent" />
+        <error line="19" column="1" source="standard:indent" />
+        <error line="20" column="1" source="standard:indent" />
+        <error line="21" column="1" source="standard:indent" />
+        <error line="22" column="1" source="standard:indent" />
+        <error line="23" column="1" source="standard:indent" />
+        <error line="24" column="1" source="standard:indent" />
+        <error line="25" column="1" source="standard:indent" />
+        <error line="26" column="1" source="standard:indent" />
+        <error line="27" column="1" source="standard:indent" />
+        <error line="28" column="1" source="standard:indent" />
+        <error line="29" column="1" source="standard:indent" />
+        <error line="30" column="1" source="standard:indent" />
+        <error line="31" column="1" source="standard:indent" />
+        <error line="32" column="1" source="standard:indent" />
+        <error line="33" column="1" source="standard:indent" />
+        <error line="34" column="1" source="standard:indent" />
+        <error line="35" column="1" source="standard:indent" />
+        <error line="36" column="1" source="standard:indent" />
+        <error line="37" column="1" source="standard:indent" />
+        <error line="38" column="1" source="standard:indent" />
+        <error line="39" column="1" source="standard:indent" />
+        <error line="40" column="1" source="standard:indent" />
+        <error line="41" column="1" source="standard:indent" />
+        <error line="42" column="1" source="standard:indent" />
+        <error line="43" column="1" source="standard:indent" />
+        <error line="44" column="1" source="standard:indent" />
+        <error line="45" column="1" source="standard:indent" />
+        <error line="46" column="1" source="standard:indent" />
+        <error line="47" column="1" source="standard:indent" />
+        <error line="48" column="1" source="standard:indent" />
+        <error line="49" column="1" source="standard:indent" />
+        <error line="50" column="1" source="standard:indent" />
+        <error line="51" column="1" source="standard:indent" />
+        <error line="52" column="1" source="standard:indent" />
+        <error line="53" column="1" source="standard:indent" />
+        <error line="54" column="1" source="standard:indent" />
+        <error line="55" column="1" source="standard:indent" />
+        <error line="56" column="1" source="standard:indent" />
+        <error line="58" column="1" source="standard:indent" />
+        <error line="59" column="1" source="standard:indent" />
+        <error line="60" column="1" source="standard:indent" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/hereAPI/HereImpl.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="18" column="93" source="standard:function-expression-body" />
+        <error line="23" column="1" source="standard:indent" />
+        <error line="24" column="1" source="standard:indent" />
+        <error line="25" column="1" source="standard:indent" />
+        <error line="26" column="1" source="standard:indent" />
+        <error line="27" column="1" source="standard:indent" />
+        <error line="54" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/location/UserLocationProvider.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="17" column="1" source="standard:indent" />
+        <error line="19" column="1" source="standard:indent" />
+        <error line="20" column="1" source="standard:indent" />
+        <error line="21" column="1" source="standard:indent" />
+        <error line="22" column="1" source="standard:indent" />
+        <error line="23" column="1" source="standard:indent" />
+        <error line="25" column="1" source="standard:indent" />
+        <error line="26" column="1" source="standard:indent" />
+        <error line="27" column="1" source="standard:indent" />
+        <error line="28" column="1" source="standard:indent" />
+        <error line="29" column="1" source="standard:indent" />
+        <error line="31" column="1" source="standard:indent" />
+        <error line="32" column="1" source="standard:indent" />
+        <error line="33" column="1" source="standard:indent" />
+        <error line="34" column="1" source="standard:indent" />
+        <error line="35" column="1" source="standard:indent" />
+        <error line="37" column="1" source="standard:indent" />
+        <error line="38" column="1" source="standard:indent" />
+        <error line="39" column="1" source="standard:indent" />
+        <error line="40" column="1" source="standard:indent" />
+        <error line="41" column="1" source="standard:indent" />
+        <error line="42" column="1" source="standard:indent" />
+        <error line="43" column="1" source="standard:indent" />
+        <error line="45" column="1" source="standard:indent" />
+        <error line="46" column="1" source="standard:indent" />
+        <error line="47" column="1" source="standard:indent" />
+        <error line="48" column="1" source="standard:indent" />
+        <error line="49" column="1" source="standard:indent" />
+        <error line="50" column="1" source="standard:indent" />
+        <error line="51" column="1" source="standard:indent" />
+        <error line="52" column="1" source="standard:indent" />
+        <error line="53" column="1" source="standard:indent" />
+        <error line="54" column="1" source="standard:indent" />
+        <error line="55" column="1" source="standard:indent" />
+        <error line="56" column="1" source="standard:indent" />
+        <error line="57" column="1" source="standard:indent" />
+        <error line="58" column="1" source="standard:indent" />
+        <error line="59" column="1" source="standard:indent" />
+        <error line="60" column="1" source="standard:indent" />
+        <error line="62" column="1" source="standard:indent" />
+        <error line="63" column="1" source="standard:indent" />
+        <error line="64" column="1" source="standard:indent" />
+        <error line="65" column="1" source="standard:indent" />
+        <error line="66" column="1" source="standard:indent" />
+        <error line="67" column="1" source="standard:indent" />
+        <error line="68" column="1" source="standard:indent" />
+        <error line="69" column="1" source="standard:indent" />
+        <error line="70" column="1" source="standard:indent" />
+        <error line="71" column="1" source="standard:indent" />
+        <error line="72" column="1" source="standard:indent" />
+        <error line="73" column="1" source="standard:indent" />
+        <error line="74" column="1" source="standard:indent" />
+        <error line="75" column="1" source="standard:indent" />
+        <error line="76" column="1" source="standard:indent" />
+        <error line="78" column="1" source="standard:indent" />
+        <error line="79" column="1" source="standard:indent" />
+        <error line="80" column="1" source="standard:indent" />
+        <error line="81" column="1" source="standard:indent" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/mapLibreAPI/MapBackground.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/mapLibreAPI/MapLibreImpl.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="151" column="41" source="standard:multiline-if-else" />
+        <error line="163" column="41" source="standard:multiline-if-else" />
+        <error line="308" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/mapLibreAPI/MapLibreViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="40" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/mapLibreAPI/MapState.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="13" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/maps/mapLibreAPI/MapWrapper.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="17" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/profile/LegalDocumentScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="4" column="1" source="standard:no-unused-imports" />
+        <error line="18" column="1" source="standard:no-unused-imports" />
+        <error line="112" column="1" source="standard:indent" />
+        <error line="113" column="1" source="standard:indent" />
+        <error line="114" column="1" source="standard:indent" />
+        <error line="115" column="1" source="standard:indent" />
+        <error line="116" column="1" source="standard:indent" />
+        <error line="117" column="1" source="standard:indent" />
+        <error line="118" column="1" source="standard:indent" />
+        <error line="119" column="1" source="standard:indent" />
+        <error line="120" column="1" source="standard:indent" />
+        <error line="121" column="1" source="standard:indent" />
+        <error line="122" column="1" source="standard:indent" />
+        <error line="123" column="1" source="standard:indent" />
+        <error line="124" column="1" source="standard:indent" />
+        <error line="125" column="1" source="standard:indent" />
+        <error line="126" column="1" source="standard:indent" />
+        <error line="127" column="1" source="standard:indent" />
+        <error line="128" column="1" source="standard:indent" />
+        <error line="129" column="1" source="standard:indent" />
+        <error line="130" column="1" source="standard:indent" />
+        <error line="131" column="1" source="standard:indent" />
+        <error line="132" column="1" source="standard:indent" />
+        <error line="133" column="1" source="standard:indent" />
+        <error line="135" column="1" source="standard:indent" />
+        <error line="136" column="1" source="standard:indent" />
+        <error line="137" column="1" source="standard:indent" />
+        <error line="138" column="1" source="standard:indent" />
+        <error line="139" column="1" source="standard:indent" />
+        <error line="140" column="1" source="standard:indent" />
+        <error line="141" column="1" source="standard:indent" />
+        <error line="142" column="1" source="standard:indent" />
+        <error line="143" column="1" source="standard:indent" />
+        <error line="144" column="1" source="standard:indent" />
+    </file>
+    <file name="src/main/java/com/w_via/features/profile/LicencasScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/profile/ProfilePlaceholderScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/profile/ProfileScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/CreateReciboClass.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="57" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/CreateReciboScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="43" column="9" source="standard:property-naming" />
+        <error line="44" column="9" source="standard:property-naming" />
+        <error line="48" column="9" source="standard:property-naming" />
+        <error line="49" column="9" source="standard:property-naming" />
+        <error line="50" column="9" source="standard:property-naming" />
+        <error line="51" column="9" source="standard:property-naming" />
+        <error line="52" column="9" source="standard:property-naming" />
+        <error line="53" column="9" source="standard:property-naming" />
+        <error line="54" column="9" source="standard:property-naming" />
+        <error line="55" column="9" source="standard:property-naming" />
+        <error line="57" column="9" source="standard:property-naming" />
+        <error line="58" column="9" source="standard:property-naming" />
+        <error line="59" column="9" source="standard:property-naming" />
+        <error line="60" column="9" source="standard:property-naming" />
+        <error line="64" column="9" source="standard:property-naming" />
+        <error line="65" column="9" source="standard:property-naming" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/CreateReciboViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="37" column="17" source="standard:backing-property-naming" />
+        <error line="38" column="9" source="standard:property-naming" />
+        <error line="40" column="17" source="standard:backing-property-naming" />
+        <error line="41" column="9" source="standard:property-naming" />
+        <error line="43" column="17" source="standard:backing-property-naming" />
+        <error line="44" column="9" source="standard:property-naming" />
+        <error line="52" column="17" source="standard:backing-property-naming" />
+        <error line="53" column="9" source="standard:property-naming" />
+        <error line="55" column="17" source="standard:backing-property-naming" />
+        <error line="56" column="9" source="standard:property-naming" />
+        <error line="58" column="17" source="standard:backing-property-naming" />
+        <error line="59" column="9" source="standard:property-naming" />
+        <error line="61" column="17" source="standard:backing-property-naming" />
+        <error line="62" column="9" source="standard:property-naming" />
+        <error line="64" column="17" source="standard:backing-property-naming" />
+        <error line="65" column="9" source="standard:property-naming" />
+        <error line="67" column="17" source="standard:backing-property-naming" />
+        <error line="68" column="9" source="standard:property-naming" />
+        <error line="70" column="17" source="standard:backing-property-naming" />
+        <error line="71" column="9" source="standard:property-naming" />
+        <error line="73" column="17" source="standard:backing-property-naming" />
+        <error line="74" column="9" source="standard:property-naming" />
+        <error line="76" column="17" source="standard:backing-property-naming" />
+        <error line="77" column="9" source="standard:property-naming" />
+        <error line="79" column="17" source="standard:backing-property-naming" />
+        <error line="80" column="9" source="standard:property-naming" />
+        <error line="82" column="17" source="standard:backing-property-naming" />
+        <error line="83" column="9" source="standard:property-naming" />
+        <error line="85" column="17" source="standard:backing-property-naming" />
+        <error line="86" column="9" source="standard:property-naming" />
+        <error line="100" column="17" source="standard:backing-property-naming" />
+        <error line="101" column="9" source="standard:property-naming" />
+        <error line="103" column="17" source="standard:backing-property-naming" />
+        <error line="104" column="9" source="standard:property-naming" />
+        <error line="106" column="17" source="standard:backing-property-naming" />
+        <error line="107" column="9" source="standard:property-naming" />
+        <error line="109" column="17" source="standard:backing-property-naming" />
+        <error line="110" column="9" source="standard:property-naming" />
+        <error line="112" column="17" source="standard:backing-property-naming" />
+        <error line="113" column="9" source="standard:property-naming" />
+        <error line="193" column="34" source="standard:statement-wrapping" />
+        <error line="193" column="51" source="standard:statement-wrapping" />
+        <error line="193" column="67" source="standard:statement-wrapping" />
+        <error line="194" column="48" source="standard:statement-wrapping" />
+        <error line="194" column="79" source="standard:statement-wrapping" />
+        <error line="194" column="95" source="standard:statement-wrapping" />
+        <error line="195" column="37" source="standard:statement-wrapping" />
+        <error line="195" column="61" source="standard:statement-wrapping" />
+        <error line="195" column="77" source="standard:statement-wrapping" />
+        <error line="196" column="52" source="standard:statement-wrapping" />
+        <error line="196" column="88" source="standard:statement-wrapping" />
+        <error line="196" column="104" source="standard:statement-wrapping" />
+        <error line="197" column="34" source="standard:statement-wrapping" />
+        <error line="197" column="55" source="standard:statement-wrapping" />
+        <error line="197" column="71" source="standard:statement-wrapping" />
+        <error line="198" column="33" source="standard:statement-wrapping" />
+        <error line="198" column="52" source="standard:statement-wrapping" />
+        <error line="198" column="68" source="standard:statement-wrapping" />
+        <error line="199" column="38" source="standard:statement-wrapping" />
+        <error line="199" column="59" source="standard:statement-wrapping" />
+        <error line="199" column="75" source="standard:statement-wrapping" />
+        <error line="200" column="45" source="standard:statement-wrapping" />
+        <error line="200" column="74" source="standard:statement-wrapping" />
+        <error line="200" column="90" source="standard:statement-wrapping" />
+        <error line="201" column="46" source="standard:statement-wrapping" />
+        <error line="201" column="76" source="standard:statement-wrapping" />
+        <error line="201" column="92" source="standard:statement-wrapping" />
+        <error line="202" column="45" source="standard:statement-wrapping" />
+        <error line="202" column="74" source="standard:statement-wrapping" />
+        <error line="202" column="90" source="standard:statement-wrapping" />
+        <error line="203" column="53" source="standard:statement-wrapping" />
+        <error line="203" column="90" source="standard:statement-wrapping" />
+        <error line="203" column="106" source="standard:statement-wrapping" />
+        <error line="204" column="43" source="standard:statement-wrapping" />
+        <error line="204" column="70" source="standard:statement-wrapping" />
+        <error line="204" column="86" source="standard:statement-wrapping" />
+        <error line="205" column="40" source="standard:statement-wrapping" />
+        <error line="205" column="67" source="standard:statement-wrapping" />
+        <error line="205" column="83" source="standard:statement-wrapping" />
+        <error line="206" column="41" source="standard:statement-wrapping" />
+        <error line="206" column="69" source="standard:statement-wrapping" />
+        <error line="206" column="85" source="standard:statement-wrapping" />
+        <error line="207" column="49" source="standard:statement-wrapping" />
+        <error line="207" column="82" source="standard:statement-wrapping" />
+        <error line="207" column="98" source="standard:statement-wrapping" />
+        <error line="208" column="45" source="standard:statement-wrapping" />
+        <error line="208" column="74" source="standard:statement-wrapping" />
+        <error line="208" column="90" source="standard:statement-wrapping" />
+        <error line="209" column="49" source="standard:statement-wrapping" />
+        <error line="209" column="83" source="standard:statement-wrapping" />
+        <error line="209" column="99" source="standard:statement-wrapping" />
+        <error line="210" column="47" source="standard:statement-wrapping" />
+        <error line="210" column="74" source="standard:statement-wrapping" />
+        <error line="210" column="90" source="standard:statement-wrapping" />
+        <error line="211" column="54" source="standard:statement-wrapping" />
+        <error line="211" column="92" source="standard:statement-wrapping" />
+        <error line="211" column="108" source="standard:statement-wrapping" />
+        <error line="212" column="42" source="standard:statement-wrapping" />
+        <error line="212" column="67" source="standard:statement-wrapping" />
+        <error line="212" column="83" source="standard:statement-wrapping" />
+        <error line="213" column="40" source="standard:statement-wrapping" />
+        <error line="213" column="66" source="standard:statement-wrapping" />
+        <error line="213" column="82" source="standard:statement-wrapping" />
+        <error line="214" column="37" source="standard:statement-wrapping" />
+        <error line="214" column="60" source="standard:statement-wrapping" />
+        <error line="214" column="76" source="standard:statement-wrapping" />
+        <error line="215" column="38" source="standard:statement-wrapping" />
+        <error line="215" column="59" source="standard:statement-wrapping" />
+        <error line="215" column="75" source="standard:statement-wrapping" />
+        <error line="216" column="42" source="standard:statement-wrapping" />
+        <error line="216" column="68" source="standard:statement-wrapping" />
+        <error line="216" column="84" source="standard:statement-wrapping" />
+        <error line="217" column="48" source="standard:statement-wrapping" />
+        <error line="217" column="81" source="standard:statement-wrapping" />
+        <error line="217" column="97" source="standard:statement-wrapping" />
+        <error line="218" column="44" source="standard:statement-wrapping" />
+        <error line="218" column="72" source="standard:statement-wrapping" />
+        <error line="218" column="88" source="standard:statement-wrapping" />
+        <error line="219" column="43" source="standard:statement-wrapping" />
+        <error line="219" column="73" source="standard:statement-wrapping" />
+        <error line="219" column="89" source="standard:statement-wrapping" />
+        <error line="220" column="46" source="standard:statement-wrapping" />
+        <error line="220" column="76" source="standard:statement-wrapping" />
+        <error line="220" column="92" source="standard:statement-wrapping" />
+        <error line="329" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/DRAFT_FILE_NAME.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/MyReciboScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/ReciboDetalheScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="132" column="51" source="standard:string-template" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/ReciboSucessoScreen.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="140" column="1" source="standard:indent" />
+        <error line="285" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/ReciboSucessoViewModel.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/components/ReciboItem.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/LocalPdfMonitor.kt">
+        <error line="22" column="9" source="standard:package-name" />
+        <error line="26" column="78" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfAsyncImage.kt">
+        <error line="22" column="9" source="standard:package-name" />
+        <error line="82" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfComponents.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfDocumentGenerator.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="30" column="13" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfGenerator.kt">
+        <error line="22" column="9" source="standard:package-name" />
+        <error line="75" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="151" column="1" source="standard:indent" />
+        <error line="206" column="1" source="standard:no-blank-line-before-rbrace" />
+        <error line="268" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfImageMonitor.kt">
+        <error line="22" column="9" source="standard:package-name" />
+        <error line="60" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/composeToPdf/PdfPageSize.kt">
+        <error line="22" column="9" source="standard:package-name" />
+        <error line="26" column="60" source="standard:function-expression-body" />
+        <error line="136" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="150" column="15" source="standard:enum-wrapping" />
+        <error line="151" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/data/ReciboDao.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/data/ReciboEntity.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/data/ReciboMapper.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/data/ReciboRepository.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/layouts/ReciboPDFLayout.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="589" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/steps/CNPJVisualTransformation.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+        <error line="25" column="1" source="standard:no-trailing-spaces" />
+        <error line="34" column="1" source="standard:no-trailing-spaces" />
+        <error line="44" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/steps/Step1Contratante.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/steps/Step2Falecido.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/steps/Step3Funeral.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="45" column="1" source="standard:no-trailing-spaces" />
+        <error line="143" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/features/receipt/steps/Step4ServicoPagamento.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="25" column="1" source="standard:no-unused-imports" />
+        <error line="190" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/routes/AppNavigationRoutes.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="44" column="1" source="standard:no-blank-line-before-rbrace" />
+    </file>
+    <file name="src/main/java/com/w_via/features/routes/FirebaseRoutes.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/sync/DeclaracaoRemoteSync.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/sync/PlaceholderRemoteSync.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/sync/ReciboRemoteSync.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/sync/SyncManager.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/sync/SyncOutcome.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/tollservice/TollPoint.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="9" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/tollservice/TollService.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="25" column="47" source="standard:function-expression-body" />
+        <error line="62" column="1" source="standard:no-empty-first-line-in-method-block" />
+        <error line="150" column="23" source="standard:parameter-list-wrapping" />
+        <error line="151" column="23" source="standard:parameter-list-wrapping" />
+        <error line="152" column="23" source="standard:parameter-list-wrapping" />
+        <error line="194" column="23" source="standard:parameter-list-wrapping" />
+        <error line="195" column="23" source="standard:parameter-list-wrapping" />
+        <error line="201" column="1" source="standard:indent" />
+        <error line="202" column="1" source="standard:indent" />
+        <error line="213" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/AgeCalculator.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/BrazilianValidators.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/CPFFormatter.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/CurrencyUtils.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="7" column="1" source="standard:no-trailing-spaces" />
+        <error line="13" column="44" source="standard:function-expression-body" />
+        <error line="16" column="1" source="standard:no-trailing-spaces" />
+        <error line="22" column="44" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/DebounceClickUtils.kt">
+        <error line="1" column="1" source="standard:filename" />
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/FormatDatePatern.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="3" column="1" source="standard:no-unused-imports" />
+        <error line="10" column="1" source="standard:comment-spacing" />
+        <error line="32" column="1" source="standard:comment-spacing" />
+        <error line="54" column="7" source="standard:no-multi-spaces" />
+        <error line="55" column="7" source="standard:no-multi-spaces" />
+        <error line="56" column="7" source="standard:no-multi-spaces" />
+        <error line="57" column="7" source="standard:no-multi-spaces" />
+        <error line="58" column="7" source="standard:no-multi-spaces" />
+        <error line="59" column="7" source="standard:no-multi-spaces" />
+        <error line="60" column="7" source="standard:no-multi-spaces" />
+        <error line="61" column="7" source="standard:no-multi-spaces" />
+        <error line="62" column="7" source="standard:no-multi-spaces" />
+        <error line="67" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/MunicipioData.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/TimeUtils.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="18" column="51" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/features/utils/ValidCPF.kt">
+        <error line="96" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/CNPJFormatter.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="16" column="1" source="standard:no-trailing-spaces" />
+        <error line="18" column="1" source="standard:no-trailing-spaces" />
+        <error line="20" column="1" source="standard:no-trailing-spaces" />
+        <error line="42" column="1" source="standard:no-trailing-spaces" />
+        <error line="55" column="1" source="standard:no-trailing-spaces" />
+        <error line="63" column="1" source="standard:no-trailing-spaces" />
+        <error line="66" column="1" source="standard:no-trailing-spaces" />
+        <error line="74" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/CNPJValidator.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="16" column="1" source="standard:no-trailing-spaces" />
+        <error line="19" column="1" source="standard:no-trailing-spaces" />
+        <error line="22" column="1" source="standard:no-trailing-spaces" />
+        <error line="25" column="1" source="standard:no-trailing-spaces" />
+        <error line="29" column="1" source="standard:no-trailing-spaces" />
+        <error line="33" column="1" source="standard:no-trailing-spaces" />
+        <error line="71" column="1" source="standard:no-trailing-spaces" />
+        <error line="76" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/OpenCNPJClient.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="15" column="1" source="standard:no-trailing-spaces" />
+        <error line="22" column="1" source="standard:no-trailing-spaces" />
+        <error line="26" column="1" source="standard:no-trailing-spaces" />
+        <error line="29" column="1" source="standard:no-trailing-spaces" />
+        <error line="32" column="1" source="standard:no-trailing-spaces" />
+        <error line="36" column="43" source="standard:function-expression-body" />
+        <error line="42" column="1" source="standard:no-trailing-spaces" />
+        <error line="45" column="7" source="standard:no-trailing-spaces" />
+        <error line="54" column="1" source="standard:no-trailing-spaces" />
+        <error line="60" column="1" source="standard:no-trailing-spaces" />
+        <error line="62" column="1" source="standard:no-trailing-spaces" />
+        <error line="82" column="1" source="standard:no-trailing-spaces" />
+        <error line="85" column="7" source="standard:no-trailing-spaces" />
+        <error line="89" column="51" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/api/OpenCNPJService.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="13" column="1" source="standard:no-trailing-spaces" />
+        <error line="16" column="7" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/CompanyAddress.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+        <error line="14" column="1" source="standard:no-trailing-spaces" />
+        <error line="17" column="1" source="standard:no-trailing-spaces" />
+        <error line="20" column="1" source="standard:no-trailing-spaces" />
+        <error line="23" column="1" source="standard:no-trailing-spaces" />
+        <error line="26" column="1" source="standard:no-trailing-spaces" />
+        <error line="29" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/CompanyCNAE.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/CompanyContact.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/CompanyInfo.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+        <error line="14" column="1" source="standard:no-trailing-spaces" />
+        <error line="17" column="1" source="standard:no-trailing-spaces" />
+        <error line="20" column="1" source="standard:no-trailing-spaces" />
+        <error line="23" column="1" source="standard:no-trailing-spaces" />
+        <error line="26" column="1" source="standard:no-trailing-spaces" />
+        <error line="29" column="1" source="standard:no-trailing-spaces" />
+        <error line="32" column="1" source="standard:no-trailing-spaces" />
+        <error line="35" column="1" source="standard:no-trailing-spaces" />
+        <error line="38" column="1" source="standard:no-trailing-spaces" />
+        <error line="41" column="1" source="standard:no-trailing-spaces" />
+        <error line="44" column="1" source="standard:no-trailing-spaces" />
+        <error line="47" column="1" source="standard:no-trailing-spaces" />
+        <error line="50" column="1" source="standard:no-trailing-spaces" />
+        <error line="53" column="1" source="standard:no-trailing-spaces" />
+        <error line="56" column="1" source="standard:no-trailing-spaces" />
+        <error line="59" column="1" source="standard:no-trailing-spaces" />
+        <error line="62" column="1" source="standard:no-trailing-spaces" />
+        <error line="65" column="1" source="standard:no-trailing-spaces" />
+        <error line="72" column="1" source="standard:no-trailing-spaces" />
+        <error line="75" column="1" source="standard:no-trailing-spaces" />
+        <error line="78" column="1" source="standard:no-trailing-spaces" />
+        <error line="81" column="1" source="standard:no-trailing-spaces" />
+        <error line="84" column="1" source="standard:no-trailing-spaces" />
+        <error line="87" column="1" source="standard:no-trailing-spaces" />
+        <error line="90" column="1" source="standard:no-trailing-spaces" />
+        <error line="93" column="1" source="standard:no-trailing-spaces" />
+        <error line="97" column="34" source="standard:function-expression-body" />
+        <error line="100" column="26" source="standard:no-trailing-spaces" />
+        <error line="102" column="27" source="standard:no-trailing-spaces" />
+        <error line="104" column="30" source="standard:no-trailing-spaces" />
+        <error line="106" column="27" source="standard:no-trailing-spaces" />
+        <error line="108" column="32" source="standard:no-trailing-spaces" />
+        <error line="110" column="27" source="standard:no-trailing-spaces" />
+        <error line="112" column="24" source="standard:no-trailing-spaces" />
+        <error line="114" column="27" source="standard:no-trailing-spaces" />
+        <error line="116" column="25" source="standard:no-trailing-spaces" />
+        <error line="118" column="27" source="standard:no-trailing-spaces" />
+        <error line="120" column="27" source="standard:no-trailing-spaces" />
+        <error line="122" column="27" source="standard:no-trailing-spaces" />
+        <error line="126" column="1" source="standard:no-trailing-spaces" />
+        <error line="130" column="38" source="standard:function-expression-body" />
+        <error line="133" column="1" source="standard:no-trailing-spaces" />
+        <error line="137" column="44" source="standard:function-expression-body" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/CompanyPartner.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+        <error line="14" column="1" source="standard:no-trailing-spaces" />
+        <error line="17" column="1" source="standard:no-trailing-spaces" />
+        <error line="20" column="1" source="standard:no-trailing-spaces" />
+        <error line="23" column="1" source="standard:no-trailing-spaces" />
+        <error line="26" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/opencnpj/model/OpenCNPJResponse.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="11" column="1" source="standard:no-trailing-spaces" />
+        <error line="14" column="1" source="standard:no-trailing-spaces" />
+    </file>
+    <file name="src/main/java/com/w_via/ui/components/DetailSection.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/ui/theme/Color.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/main/java/com/w_via/ui/theme/Theme.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="22" column="35" source="standard:comment-spacing" />
+        <error line="80" column="1" source="standard:no-consecutive-blank-lines" />
+        <error line="93" column="1" source="standard:no-consecutive-blank-lines" />
+    </file>
+    <file name="src/main/java/com/w_via/ui/theme/Type.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="30" column="30" source="standard:function-expression-body" />
+        <error line="112" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/test/java/com/w_via/ExampleUnitTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="17" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/test/java/com/w_via/features/components/AccordionSelectStateTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/components/AutocompleteLogicTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/DeclaracaoObitoMapperTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="254" column="1" source="standard:final-newline" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/DeclaracaoObitoViewModelTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/DeclarationFieldErrorsTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/DeclarationRulesTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="5" column="1" source="standard:no-unused-imports" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/FieldValidatorsTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/createdeclaration/DeclarationDraftViewModelTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+        <error line="33" column="26" source="standard:statement-wrapping" />
+        <error line="33" column="41" source="standard:statement-wrapping" />
+        <error line="33" column="59" source="standard:statement-wrapping" />
+        <error line="75" column="26" source="standard:statement-wrapping" />
+        <error line="75" column="41" source="standard:statement-wrapping" />
+        <error line="75" column="59" source="standard:statement-wrapping" />
+        <error line="82" column="26" source="standard:statement-wrapping" />
+        <error line="82" column="41" source="standard:statement-wrapping" />
+        <error line="82" column="59" source="standard:statement-wrapping" />
+        <error line="119" column="26" source="standard:statement-wrapping" />
+        <error line="119" column="41" source="standard:statement-wrapping" />
+        <error line="119" column="59" source="standard:statement-wrapping" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/createdeclaration/DeclarationSectionTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/declaration/data/DeclaracaoMapperTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/receipt/data/ReciboMapperTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/sync/SyncManagerTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/utils/AgeCalculatorTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/utils/BrazilianValidatorsTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/utils/CPFFormatterTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+    <file name="src/test/java/com/w_via/features/utils/MunicipioDataTest.kt">
+        <error line="1" column="9" source="standard:package-name" />
+    </file>
+</baseline>

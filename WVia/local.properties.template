@@ -1,0 +1,14 @@
+# Copie para local.properties e preencha. NUNCA versione o local.properties.
+sdk.dir=/caminho/para/Android/Sdk
+
+HERE_API_KEY=__PLACEHOLDER__
+GRAPHHOPPER_API_KEY=__PLACEHOLDER__
+
+SUPABASE_URL=https://SEU_PROJETO.supabase.co
+SUPABASE_ANON_KEY=__PLACEHOLDER__
+GOOGLE_WEB_CLIENT_ID=__PLACEHOLDER__
+
+RELEASE_STORE_FILE=/caminho/para/w_via_keystore.jks
+RELEASE_STORE_PASSWORD=__PLACEHOLDER__
+RELEASE_KEY_ALIAS=__PLACEHOLDER__
+RELEASE_KEY_PASSWORD=__PLACEHOLDER__

@@ -134,6 +134,25 @@
     margin-bottom: 2rem;
   }
 
+  .hero-text .hero-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: -1rem 0 2rem;
+    padding: 0.45rem 0.8rem;
+    border: 1px solid #4a473e;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    color: var(--gold-soft);
+    max-width: none;
+  }
+
+  .hero-text .hero-note::before {
+    content: "●";
+    color: var(--gold);
+    font-size: 0.6rem;
+  }
+
   .cta-row {
     display: flex;
     gap: 1rem;
@@ -261,7 +280,7 @@
   /* ---------- FEATURE GRID ---------- */
   .feature-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 1.5rem;
   }
 
@@ -288,6 +307,67 @@
     font-size: 0.9rem;
     color: var(--muted);
     margin: 0;
+  }
+
+  /* ---------- APP SHOWCASE ---------- */
+  section.app-showcase {
+    background: var(--ink);
+    max-width: none;
+    padding: 5rem 0;
+  }
+
+  .app-showcase .inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .app-showcase .section-title { color: var(--paper); }
+  .app-showcase .section-lede { color: #b8b6ac; }
+
+  .app-gallery {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(240px, 280px);
+    gap: 1.25rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.25rem 0.25rem 1.5rem;
+    margin: 0 -0.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .app-shot {
+    margin: 0;
+    scroll-snap-align: start;
+    background: #fff;
+    border: 1px solid var(--line-dark);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 24px 45px -30px rgba(0,0,0,0.8);
+  }
+
+  .app-shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .app-gallery::-webkit-scrollbar { height: 8px; }
+  .app-gallery::-webkit-scrollbar-track { background: var(--ink-soft); border-radius: 4px; }
+  .app-gallery::-webkit-scrollbar-thumb { background: #4a473e; border-radius: 4px; }
+  .app-gallery::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+  .app-showcase .gallery-hint {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #8c8a80;
+    margin: 0.25rem 0 0;
+  }
+
+  @media (max-width: 640px) {
+    section.app-showcase { padding: 3.5rem 0; }
+    .app-gallery { grid-auto-columns: 76vw; }
   }
 
   /* ---------- STEPS ---------- */
@@ -328,52 +408,6 @@
     margin: 0;
     max-width: 55ch;
   }
-
-  /* ---------- PRICING ---------- */
-  .price-card {
-    max-width: 420px;
-    margin: 0 auto;
-    background: var(--ink);
-    color: var(--paper);
-    border-radius: 6px;
-    padding: 2.5rem 2rem;
-    text-align: center;
-    border: 1px solid var(--line-dark);
-  }
-
-  .price-card .amount {
-    font-size: 3rem;
-    color: var(--gold);
-    margin: 0.5rem 0;
-  }
-
-  .price-card .amount sup {
-    font-size: 1.2rem;
-    top: -1.4em;
-  }
-
-  .price-card .amount small {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.9rem;
-    color: #b8b6ac;
-  }
-
-  .price-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 1.75rem 0;
-    text-align: left;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 0.88rem;
-    color: #c7c5ba;
-  }
-
-  .price-card li {
-    padding: 0.5rem 0;
-    border-bottom: 1px dashed #35322c;
-  }
-
-  .price-card li:last-child { border-bottom: none; }
 
   /* ---------- FOOTER ---------- */
   footer {
@@ -423,8 +457,8 @@
     <div class="nav-links">
       <a href="#recursos">Recursos</a>
       <a href="#como-funciona">Como funciona</a>
-      <a href="#preco">Preço</a>
-      <a href="politica-privacidade-wvia.md">Privacidade</a>
+      <a href="#app">O app</a>
+      <a href="policy.html">Privacidade</a>
       <a href="termos-de-uso.html">Termos</a>
     </div>
   </div>
@@ -436,8 +470,9 @@
       <p class="eyebrow">Para agentes funerários</p>
       <h1>Menos burocracia.<br>Mais <em>presença</em> para quem precisa de você.</h1>
       <p>O W-Via organiza traslados, recibos e a Declaração de Óbito em um só app — para que seu tempo fique com as famílias, não com o papel.</p>
+      <p class="hero-note">Funciona no seu dispositivo. Seus dados não saem dele.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#preco">Ver planos</a>
+        <a class="btn btn-primary" href="#app">Conhecer o app</a>
         <a class="btn btn-ghost" href="#como-funciona">Ver como funciona</a>
       </div>
     </div>
@@ -445,27 +480,27 @@
     <div class="doc-card" aria-hidden="true">
       <div class="doc-card-head">
         <span class="title">Declaração de Óbito</span>
-        <span class="badge">Em preenchimento</span>
+        <span class="badge">Preenchimento estruturado</span>
       </div>
       <div class="doc-field">
         <span class="check">✓</span>
         <span class="label">Dados do falecido</span>
-        <span class="value">completo</span>
+        <span class="value">Preencha conforme os dados chegam</span>
       </div>
       <div class="doc-field">
         <span class="check">✓</span>
         <span class="label">Causa da morte</span>
-        <span class="value">completo</span>
+        <span class="value">Evite erros com o autocomplete</span>
       </div>
       <div class="doc-field">
         <span class="check">✓</span>
         <span class="label">Responsável / familiar</span>
-        <span class="value">completo</span>
+        <span class="value">Informações estruturadas</span>
       </div>
       <div class="doc-field pending">
         <span class="check"></span>
-        <span class="label">Revisão final</span>
-        <span class="value">pendente</span>
+        <span class="label">Rascunho da declaração</span>
+        <span class="value">Preencha por partes</span>
       </div>
     </div>
   </div>
@@ -481,7 +516,7 @@
     <div class="feature-grid">
       <div class="feature-card">
         <h3>Traslados e roteirização</h3>
-        <p>Registre e acompanhe traslados com rotas otimizadas, sem depender de anotações soltas.</p>
+        <p>Registre e acompanhe traslados com rotas otimizadas, simule viagens de um ponto a outro sem depender de anotações soltas.</p>
       </div>
       <div class="feature-card">
         <h3>Recibos automáticos</h3>
@@ -491,6 +526,43 @@
         <h3>Declaração de Óbito guiada</h3>
         <p>Preenchimento estruturado em etapas, com campos condicionais por idade e sexo biológico — reduzindo erro no momento mais delicado.</p>
       </div>
+      <div class="feature-card">
+        <h3>Tudo no seu dispositivo</h3>
+        <p>Sem servidor e sem nuvem: traslados, recibos e declarações ficam armazenados apenas no seu aparelho, e o app funciona sem conexão.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="app-showcase" id="app">
+    <div class="inner">
+      <p class="eyebrow">Por dentro do app</p>
+      <h2 class="section-title">As telas do W-Via</h2>
+      <p class="section-lede">Veja como o dia a dia do agente funerário fica mais simples: do mapa ao recibo em PDF, tudo no mesmo aparelho.</p>
+
+      <div class="app-gallery" role="region" aria-label="Capturas de tela do aplicativo W-Via" tabindex="0">
+        <figure class="app-shot">
+          <img src="images/init.png" alt="Tela de boas-vindas do W-Via para agentes funerários autônomos" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/home.png" alt="Mapa do app com a rota entre Montes Claros e São Paulo" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/calc-viagem.png" alt="Cálculo de pedágios, combustível e lucro da viagem" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/declaracao-estruturada.png" alt="Tela com as etapas da Declaração de Óbito" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/preenchimento-dados.png" alt="Preenchimento estruturado dos dados do óbito" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/recibos.png" alt="Lista de recibos salvos no app" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+        <figure class="app-shot">
+          <img src="images/gerar-recibo-pdf.png" alt="Detalhes do recibo com o botão para gerar o PDF" width="1304" height="2482" loading="lazy" decoding="async">
+        </figure>
+      </div>
+      <p class="gallery-hint">Arraste para o lado para ver mais telas.</p>
     </div>
   </section>
 
@@ -533,36 +605,18 @@
     </div>
   </section>
 
-  <section id="preco">
-    <p class="eyebrow" style="text-align:center; display:block;">Assinatura</p>
-    <h2 class="section-title" style="text-align:center;">Um preço simples</h2>
-    <p class="section-lede" style="margin-left:auto; margin-right:auto; text-align:center;">Sem contrato de fidelidade. Cancele quando quiser.</p>
-
-    <div class="price-card">
-      <p class="eyebrow" style="color:var(--gold);">Plano mensal</p>
-      <p class="amount">Em breve</p>
-      <ul>
-        <li>Traslados e roteirização ilimitados</li>
-        <li>Geração de recibos em PDF</li>
-        <li>Declaração de Óbito guiada</li>
-        <li>Suporte via app</li>
-      </ul>
-      <a class="btn btn-primary" href="#top">Quero ser avisado</a>
-    </div>
-  </section>
-
 </main>
 
 <footer>
   <div class="footer-inner">
     <div>
-      <a href="politica-privacidade-wvia.md">Política de Privacidade</a>
+      <a href="policy.html">Política de Privacidade</a>
       <a href="termos-de-uso.html">Termos de Uso</a>
     </div>
     <div>
       <a href="#recursos">Recursos</a>
       <a href="#como-funciona">Como funciona</a>
-      <a href="#preco">Preço</a>
+      <a href="#app">O app</a>
     </div>
   </div>
   <div class="footer-bottom">

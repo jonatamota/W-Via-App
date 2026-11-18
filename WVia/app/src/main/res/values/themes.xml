@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WVia" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.WVia.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.WVia</item>
+    </style>
+</resources>

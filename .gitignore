@@ -1,0 +1,44 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+.kotlin/
+*.iml
+*.apk
+*.aab
+*.aar
+*.ap_
+captures/
+.cxx/
+.externalNativeBuild/
+.idea/
+
+# Configuração local e assinatura (NUNCA versionar)
+local.properties
+local.properties.tmp
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.p8
+
+# Segredos
+.env
+.env.*
+*service*account*.json
+*adminsdk*.json
+
+# Saídas de release
+**/release/
+
+# Dados de teste com PII
+dados_teste/
+
+# Backups e logs
+*.bundle
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

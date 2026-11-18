@@ -1,0 +1,57 @@
+#Termos de Uso do W-Via#
+Última atualização: 04 de agosto de 2026
+
+Estes Termos regem o uso do W-Via, aplicativo independente voltado a agentes funerários autônomos no Brasil. Ao criar conta ou utilizar o app, você concorda integralmente com estes Termos.
+
+**1. Cadastro e conta**
+
+**1.1** O uso do W-Via exige conta autenticada. Você se compromete a fornecer informações verdadeiras, completas e atualizadas, e a mantê-las assim.
+**1.2** É responsável pela segurança de suas credenciais e por toda atividade realizada em sua conta. Comunique imediatamente qualquer uso indevido.
+**1.3** Menores de idade não podem utilizar o W-Via. O app é destinado exclusivamente a profissionais adultos legalmente capazes.
+
+**2. Elegibilidade e autorização profissional**
+Você declara ser agente funerário autônano legalmente habilitado, ou estar de outra forma autorizado a atuar na atividade funerária conforme a legislação local. O W-Via não emite registros profissionais nem substitui a observância das normas do seu conselho ou órgão regulador.
+
+**3. Serviços oferecidos**
+O W-Via disponibiliza:
+
+- Geração estruturada de Declaração de Óbito e recibos em PDF;
+- Roteirização, cálculo de pedágios e estimativas de translado.
+
+O app é uma ferramenta de apoio e não substitui a responsabilidade profissional sobre os documentos emitidos.
+
+**4. Responsabilidades do usuário**
+
+**4.1** Inserir dados corretos e autorizados por lei, em especial os relativos a falecidos, declarantes e terceiros.
+**4.2** Não usar o app para fins ilícitos, fraudulentos, abusivos ou que infrinjam direitos de terceiros.
+**4.3** Não tentar burlar, descompilar, realizar engenharia reversa ou circumventar limites de uso ou salvaguardas do serviço.
+**4.4** Manter cópia de segurança dos documentos gerados. O W-Via atua com melhor esforço na persistência, mas não é repositório único e definitivo dos seus arquivos.
+
+**5. Documentos e responsabilidade profissional**
+Os documentos são gerados a partir das informações que você fornece. Você é o único responsável pela veracidade, regularidade legal e,idoneidade dos documentos emitidos pelo app. O W-Via não emite registros civis nem substitui os órgãos competentes (Cartório, Secretaria de Saúde, etc.).
+
+**6. Propriedade intelectual**
+O W-Via, sua marca, código, identidade visual, lógica de roteirização e geração de PDF são protegidos por direitos autorais e demais leis aplicáveis. Eventuais bibliotecas de terceiros seguem suas respectivas licenças, acessíveis no app em **Perfil → Licenças do aplicativo**. Você não adquire direitos sobre o app além do direito de uso limitado previsto aqui.
+
+**7. Conteúdo do usuário**
+Você mantém a propriedade dos documentos e dados que inserir. Ao usá-los no app, concede ao W-Via licença não exclusiva para processá-los com a finalidade de operar, sincronizar e aprimorar as funcionalidades contratadas.
+
+**8. Suspensão e rescisão**
+O descumprimento destes Termos autoriza o W-Via a suspender, restringir ou encerrar contas, bem como excluir conteúdo, sem prejuízo das responsabilidades civis e criminais cabíveis.
+
+**9. Garantias**
+O serviço é fornecido "no estado em que se encontra", sem garantias de disponibilidade contínua, ausência de erros ou adequação a objetivos específicos. Não respondemos por perdas decorrentes de indisponibilidade, falhas de provedores de mapas, do Supabase, do Firebase ou do Google Play.
+
+**10. Limitação de responsabilidade**
+Na máxima medida permitida pela lei, a responsabilidade do W-Via por danos decorrentes do uso do app se limita aos valores efetivamente pagos por você pelo uso do serviço. Não respondemos por lucros cessantes, dados perdidos ou danos indiretos.
+
+**11. Alterações dos Termos e do serviço**
+Podemos modificar estes Termos e as funcionalidades a qualquer tempo. Alterações relevantes serão comunicadas no app. O uso continuado após a notificação implica aceitação.
+
+**12. Legislação aplicável e foro**
+Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro do domicílio do usuário para dirimir eventuais controvérsias, ressalvadas as competências inafastáveis do Código de Defesa do Consumidor.
+
+**13. Contato**
+Canais de suporte estão disponíveis no app (Perfil) ou no e-mail divulgado na loja de distribuição.
+
+Ao continuar utilizando o W-Via, você confirma ter lido, compreendido e aceitado estes Termos.

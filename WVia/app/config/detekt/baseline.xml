@@ -1,0 +1,1173 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues/>
+  <CurrentIssues>
+    <ID>ArgumentListWrapping:CreateReciboViewModel.kt$CreateReciboViewModel$( info.street, info.number, info.complement, info.neighborhood, info.city, info.state )</ID>
+    <ID>ArgumentListWrapping:DadosFalecidoSectionScreen.kt$("Carteira", s.reservistaCarteira, { v -&gt; viewModel.update { it.copy(reservistaCarteira = v) } })</ID>
+    <ID>ArgumentListWrapping:DadosFalecidoSectionScreen.kt$(reservistaCarteira = v)</ID>
+    <ID>ArgumentListWrapping:DadosObitoSectionScreen.kt$("Hora do falecimento", s.horaFalecimento, { v -&gt; viewModel.update { it.copy(horaFalecimento = v) } })</ID>
+    <ID>ArgumentListWrapping:DadosObitoSectionScreen.kt$("Hora do sepultamento", s.horaSepultamento, { v -&gt; viewModel.update { it.copy(horaSepultamento = v) } })</ID>
+    <ID>ArgumentListWrapping:DadosObitoSectionScreen.kt$(horaFalecimento = v)</ID>
+    <ID>ArgumentListWrapping:DadosObitoSectionScreen.kt$(horaSepultamento = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoMapperTest.kt$DeclaracaoObitoMapperTest$(base.copy(idade = "45", estadoCivil = EstadoCivil.CASADO, casamentoEmCartorio = true).exibirCamposCasamentoCartorio())</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoMapperTest.kt$DeclaracaoObitoMapperTest$(base.copy(idade = "45", estadoCivil = EstadoCivil.SOLTEIRO, casamentoEmCartorio = true).exibirCamposCasamentoCartorio())</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoMapperTest.kt$DeclaracaoObitoMapperTest$(idade = "45", estadoCivil = EstadoCivil.CASADO, casamentoEmCartorio = true)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoMapperTest.kt$DeclaracaoObitoMapperTest$(idade = "45", estadoCivil = EstadoCivil.SOLTEIRO, casamentoEmCartorio = true)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoPDFLayout.kt$("Estado civil", declaracao.falecido.estadoCivil?.name?.lowercase()?.replaceFirstChar(Char::uppercase) ?: "", Modifier.weight(1.2f))</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoPDFLayout.kt$("Sexo", declaracao.falecido.sexo.name.lowercase().replaceFirstChar(Char::uppercase), Modifier.weight(1f))</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoPDFLayout.kt$(1.2f)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoPDFLayout.kt$(1f)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoPDFLayout.kt$(Char::uppercase)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("CEP", s.cepDeclarante, { v -&gt; vm.update { it.copy(cepDeclarante = v) } }, keyboardType = KeyboardType.Number)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("CEP", s.cepVelorio, { v -&gt; vm.update { it.copy(cepVelorio = v) } }, keyboardType = KeyboardType.Number)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("CPF", s.cpfDeclarante, { v -&gt; vm.update { it.copy(cpfDeclarante = v) } }, keyboardType = KeyboardType.Number)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("Casado em cartório?", s.casamentoEmCartorio, { v -&gt; vm.update { it.copy(casamentoEmCartorio = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("Celular", s.celularDeclarante, { v -&gt; vm.update { it.copy(celularDeclarante = v) } }, keyboardType = KeyboardType.Phone)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("E-mail", s.emailDeclarante, { v -&gt; vm.update { it.copy(emailDeclarante = v) } }, keyboardType = KeyboardType.Email)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("N° do atestado de óbito", s.numeroAtestadoObito, { v -&gt; vm.update { it.copy(numeroAtestadoObito = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$("Telefone", s.declaranteTelefone, { v -&gt; vm.update { it.copy(declaranteTelefone = v) } }, keyboardType = KeyboardType.Phone)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(casamentoEmCartorio = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(celularDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(cepDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(cepVelorio = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(cpfDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(declaranteTelefone = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(emailDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaracaoObitoScreen.kt$(numeroAtestadoObito = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Cartório", s.declaranteCartorio, { v -&gt; viewModel.update { it.copy(declaranteCartorio = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Endereço", s.declaranteEndereco, { v -&gt; viewModel.update { it.copy(declaranteEndereco = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Grau de parentesco", s.grauParentesco, { v -&gt; viewModel.update { it.copy(grauParentesco = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Município", s.municipioDeclarante, { v -&gt; viewModel.update { it.copy(municipioDeclarante = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Nome do declarante", s.nomeDeclarante, { v -&gt; viewModel.update { it.copy(nomeDeclarante = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Profissão", s.profissaoDeclarante, { v -&gt; viewModel.update { it.copy(profissaoDeclarante = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$("Residência", s.residenciaDeclarante, { v -&gt; viewModel.update { it.copy(residenciaDeclarante = v) } })</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(declaranteCartorio = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(declaranteEndereco = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(grauParentesco = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(municipioDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(nomeDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(profissaoDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclaranteSectionScreen.kt$(residenciaDeclarante = v)</ID>
+    <ID>ArgumentListWrapping:DeclarationRulesTest.kt$DeclarationRulesTest$(idade = "10", estadoCivil = EstadoCivil.CASADO, excecaoEstadoCivil = true)</ID>
+    <ID>ArgumentListWrapping:FinishCreateAuthViewModel.kt$FinishCreateAuthViewModel.Companion$( "@gmail.com", "@outlook.com", "@hotmail.com", "@yahoo.com", "@icloud.com", "@aol.com", "@setdrive.com.br" )</ID>
+    <ID>ArgumentListWrapping:HomeRouteScreen.kt$("Para mostrar sua localizacao atual no mapa, conceda a permissao nas configuracoes do dispositivo.")</ID>
+    <ID>ArgumentListWrapping:LabeledTextField.kt$( selected = selected == false, onClick = { onSelect(false) }, label = { Text("Não") })</ID>
+    <ID>ArgumentListWrapping:LabeledTextField.kt$( selected = selected == true, onClick = { onSelect(true) }, label = { Text("Sim") })</ID>
+    <ID>ArgumentListWrapping:MapLibreImpl.kt$(styleLoaded, mapState.routePoints, mapState.tollPoints, mapState.isMyLocationEnabled, mapState.latitude, mapState.longitude)</ID>
+    <ID>ArgumentListWrapping:PdfGenerator.kt$PdfGenerator$( pageSize.width, pageSize.height, index + 1 )</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(18.dp)</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(imageVector = icon, contentDescription = null, modifier = Modifier.size(18.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(modifier = Modifier.padding(vertical = 8.dp), color = MaterialTheme.colorScheme.outlineVariant)</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(text = label, fontSize = 14.sp, color = MaterialTheme.colorScheme.onSurfaceVariant, fontWeight = FontWeight.Medium)</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(text = value, fontSize = 14.sp, color = MaterialTheme.colorScheme.onSurface, fontWeight = FontWeight.Normal, textAlign = TextAlign.End)</ID>
+    <ID>ArgumentListWrapping:ReciboSucessoScreen.kt$(vertical = 8.dp)</ID>
+    <ID>ArgumentListWrapping:ResultCard.kt$(MaterialTheme.colorScheme.surface, shape = RoundedCornerShape(bottomStart = cornerRadius, bottomEnd = cornerRadius) )</ID>
+    <ID>ArgumentListWrapping:SearchDestinationScreen.kt$("selected_place", suggestion)</ID>
+    <ID>ArgumentListWrapping:TollService.kt$TollService$( ponto.first, ponto.second, praca.lat, praca.lng )</ID>
+    <ID>ArgumentListWrapping:TollService.kt$TollService$( pracaLat, pracaLng, a.first, a.second, b.first, b.second )</ID>
+    <ID>CommentSpacing:FormatDatePatern.kt$//fun formatarDataPadrao(date: Any?): String {</ID>
+    <ID>CommentSpacing:FormatDatePatern.kt$//}</ID>
+    <ID>CommentSpacing:Theme.kt$//EFF3EFFF</ID>
+    <ID>ComplexCondition:DeclarationRules.kt$DeclarationRules$result.estadoCivil != EstadoCivil.CASADO &amp;&amp; (result.casamentoEmCartorio != null || result.casamentoDia.isNotBlank() || result.casamentoLivro.isNotBlank() || result.casamentoFolha.isNotBlank() || result.casamentoNumero.isNotBlank())</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val ass_contratante1: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val ass_contratante2: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val ass_contratante3: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val cemiterio_sepultamento: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val cpf_cnpj: Int = 0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val cpf_falecido: Int = 0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val data_pagamento: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val dia_funeral: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val emitente_cheque: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val endereco_contratante: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val estado_civil_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val filiacao_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val hora_saida_funeral: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val idade_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val local_funeral: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val n_cheque: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val naturalidade_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val nome_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val rg_contratante: Int = 0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val rg_falecido: Int = 0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val rg_ie: Int = 0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val sexo_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val total_pago: Double = 0.0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val uf_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val valor_cheque: Double = 0.0</ID>
+    <ID>ConstructorParameterNaming:CreateReciboClass.kt$Recibo$val valor_por_extenso: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val cemiterio_sepultamento: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val cpf_cnpj: Int = 0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val cpf_falecido: Int = 0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val data_pagamento: String</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val data_pagamento_epoch: Long = System.currentTimeMillis() / 1000</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val dia_funeral: String? = null</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val endereco_contratante: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val filiacao_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val hora_saida_funeral: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val idade_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val local_funeral: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val naturalidade_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val nome_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val rg_contratante: Int = 0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val rg_falecido: Int = 0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val rg_ie: Int = 0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val sexo_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val total_pago: Double = 0.0</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val uf_falecido: String = ""</ID>
+    <ID>ConstructorParameterNaming:DRAFT_FILE_NAME.kt$ReciboDraft$val valor_cheque: Double = 0.0</ID>
+    <ID>ConstructorParameterNaming:LoginGoogleViewModel.kt$LoginGoogleViewModel.RegistrationGateResponse$val personal_complete: Boolean = false</ID>
+    <ID>ConstructorParameterNaming:LoginGoogleViewModel.kt$LoginGoogleViewModel.RegistrationGateResponse$val professional_complete: Boolean = false</ID>
+    <ID>CyclomaticComplexMethod:CustomTextField.kt$@Composable fun CustomTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, label: String = "", placeholder: String = "", isPassword: Boolean = false, isError: Boolean = false, errorMessage: String = "", keyboardOptions: KeyboardOptions = KeyboardOptions.Default, keyboardActions: KeyboardActions = KeyboardActions.Default, singleLine: Boolean = true, maxLines: Int = 1, maxLength: Int = Int.MAX_VALUE, enabled: Boolean = true, readOnly: Boolean = false, leadingIcon: @Composable (() -&gt; Unit)? = null, showClearButton: Boolean = true, borderRadius: Dp = 22.dp, cursorColor: Color = MaterialTheme.colorScheme.onBackground, backgroundColor: Color = MaterialTheme.colorScheme.surface, focusedBorderColor: Color = MaterialTheme.colorScheme.primary, unfocusedBorderColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f), textColor: Color = MaterialTheme.colorScheme.onSurface, labelColor: Color = MaterialTheme.colorScheme.onSurfaceVariant, placeholderColor: Color = MaterialTheme.colorScheme.outline )</ID>
+    <ID>CyclomaticComplexMethod:DeclarationRules.kt$DeclarationRules$fun normalize(state: DeclaracaoObitoFormState): NormalizationResult</ID>
+    <ID>CyclomaticComplexMethod:HomeRouteScreen.kt$@Composable fun HomeRouteScreen( navController: NavController, bottomBarPadding: Dp, mapState: MapState, onMapStateChange: (MapState) -&gt; Unit, viewModel: MapRouteViewModel = viewModel(factory = MapRouteViewModel.Factory) )</ID>
+    <ID>CyclomaticComplexMethod:MapLibreImpl.kt$@Composable fun MapLibreImpl( mapState: MapState, modifier: Modifier = Modifier, viewModel: MapLibreViewModel = viewModel() )</ID>
+    <ID>CyclomaticComplexMethod:UploadFileScreen.kt$@Composable fun UploadFileScreen( navController: NavController, viewModel: UploadFileViewModel = koinViewModel(), onNavigateToCNPJ: (Uri?) -&gt; Unit = {} )</ID>
+    <ID>Filename:AppNavigationRoutes.kt$com.w_via.features.routes.AppNavigationRoutes.kt</ID>
+    <ID>Filename:CreateReciboClass.kt$com.w_via.features.receipt.CreateReciboClass.kt</ID>
+    <ID>Filename:DRAFT_FILE_NAME.kt$com.w_via.features.receipt.DRAFT_FILE_NAME.kt</ID>
+    <ID>Filename:DebounceClickUtils.kt$com.w_via.features.utils.DebounceClickUtils.kt</ID>
+    <ID>Filename:databaseModule.kt$com.w_via.features.koin.databaseModule.kt</ID>
+    <ID>Filename:state.kt$com.w_via.features.declaration.state.state.kt</ID>
+    <ID>Filename:syncModule.kt$com.w_via.features.koin.syncModule.kt</ID>
+    <ID>Filename:viewModelModule.kt$com.w_via.features.koin.viewModelModule.kt</ID>
+    <ID>FinalNewline:AddressSearchField.kt$com.w_via.features.maps.hereAPI.AddressSearchField.kt</ID>
+    <ID>FinalNewline:AdvancedMonthCarousel.kt$com.w_via.designsystem.AdvancedMonthCarousel.kt</ID>
+    <ID>FinalNewline:AuthTokenProvider.kt$com.w_via.features.authentication.AuthTokenProvider.kt</ID>
+    <ID>FinalNewline:BottomSheetContador.kt$com.w_via.designsystem.bottomsheets.BottomSheetContador.kt</ID>
+    <ID>FinalNewline:CalendarBottom.kt$com.w_via.designsystem.bottomsheets.CalendarBottom.kt</ID>
+    <ID>FinalNewline:CasamentoCartorioInfo.kt$com.w_via.features.declaration.CasamentoCartorioInfo.kt</ID>
+    <ID>FinalNewline:CloseButton.kt$com.w_via.designsystem.appbuttons.CloseButton.kt</ID>
+    <ID>FinalNewline:ConfirmButton.kt$com.w_via.designsystem.appbuttons.ConfirmButton.kt</ID>
+    <ID>FinalNewline:CreateReciboClass.kt$com.w_via.features.receipt.CreateReciboClass.kt</ID>
+    <ID>FinalNewline:CreateReciboViewModel.kt$com.w_via.features.receipt.CreateReciboViewModel.kt</ID>
+    <ID>FinalNewline:CustomActionButton.kt$com.w_via.designsystem.appbuttons.CustomActionButton.kt</ID>
+    <ID>FinalNewline:CustomBottomSheet.kt$com.w_via.designsystem.bottomsheets.CustomBottomSheet.kt</ID>
+    <ID>FinalNewline:CustomSwitchValues.kt$com.w_via.designsystem.CustomSwitchValues.kt</ID>
+    <ID>FinalNewline:CustomTextField.kt$com.w_via.designsystem.input.CustomTextField.kt</ID>
+    <ID>FinalNewline:DadosObito.kt$com.w_via.features.declaration.DadosObito.kt</ID>
+    <ID>FinalNewline:DeclaracaoObitoMapperTest.kt$com.w_via.features.declaration.DeclaracaoObitoMapperTest.kt</ID>
+    <ID>FinalNewline:DeclaracaoObitoScreen.kt$com.w_via.features.declaration.DeclaracaoObitoScreen.kt</ID>
+    <ID>FinalNewline:DeclaracaoObitoThresholds.kt$com.w_via.features.declaration.DeclaracaoObitoThresholds.kt</ID>
+    <ID>FinalNewline:DeclaracaoObitoViewModel.kt$com.w_via.features.declaration.DeclaracaoObitoViewModel.kt</ID>
+    <ID>FinalNewline:DynamicBlurBox.kt$com.w_via.designsystem.DynamicBlurBox.kt</ID>
+    <ID>FinalNewline:ExampleUnitTest.kt$com.w_via.ExampleUnitTest.kt</ID>
+    <ID>FinalNewline:FinishCreateAuthScreen.kt$com.w_via.features.authentication.finishlogin.FinishCreateAuthScreen.kt</ID>
+    <ID>FinalNewline:FinishCreateAuthViewModel.kt$com.w_via.features.authentication.finishlogin.FinishCreateAuthViewModel.kt</ID>
+    <ID>FinalNewline:FormatDatePatern.kt$com.w_via.features.utils.FormatDatePatern.kt</ID>
+    <ID>FinalNewline:GraphHopperService.kt$com.w_via.features.maps.graphhopperAPI.GraphHopperService.kt</ID>
+    <ID>FinalNewline:HereImpl.kt$com.w_via.features.maps.hereAPI.HereImpl.kt</ID>
+    <ID>FinalNewline:HomeRouteScreen.kt$com.w_via.features.home.HomeRouteScreen.kt</ID>
+    <ID>FinalNewline:HomeRouteViewModel.kt$com.w_via.features.home.HomeRouteViewModel.kt</ID>
+    <ID>FinalNewline:InfiniteWordCarousel.kt$com.w_via.designsystem.InfiniteWordCarousel.kt</ID>
+    <ID>FinalNewline:InfoCard.kt$com.w_via.designsystem.InfoCard.kt</ID>
+    <ID>FinalNewline:InitStepScreen.kt$com.w_via.features.initscreens.InitStepScreen.kt</ID>
+    <ID>FinalNewline:LabeledTextField.kt$com.w_via.features.declaration.LabeledTextField.kt</ID>
+    <ID>FinalNewline:LocalPdfMonitor.kt$com.w_via.features.receipt.composeToPdf.LocalPdfMonitor.kt</ID>
+    <ID>FinalNewline:LoginScreen.kt$com.w_via.features.authentication.loginAuth.LoginScreen.kt</ID>
+    <ID>FinalNewline:LogoStorage.kt$com.w_via.features.datamycnpj.LogoStorage.kt</ID>
+    <ID>FinalNewline:MainActivity.kt$com.w_via.MainActivity.kt</ID>
+    <ID>FinalNewline:MapLibreImpl.kt$com.w_via.features.maps.mapLibreAPI.MapLibreImpl.kt</ID>
+    <ID>FinalNewline:MapLibreViewModel.kt$com.w_via.features.maps.mapLibreAPI.MapLibreViewModel.kt</ID>
+    <ID>FinalNewline:MapState.kt$com.w_via.features.maps.mapLibreAPI.MapState.kt</ID>
+    <ID>FinalNewline:MapWrapper.kt$com.w_via.features.maps.mapLibreAPI.MapWrapper.kt</ID>
+    <ID>FinalNewline:ModalConfirmation.kt$com.w_via.designsystem.bottomsheets.ModalConfirmation.kt</ID>
+    <ID>FinalNewline:NavigationBar.kt$com.w_via.features.appnavigation.NavigationBar.kt</ID>
+    <ID>FinalNewline:NavigationManager.kt$com.w_via.NavigationManager.kt</ID>
+    <ID>FinalNewline:OutlinedFieldBox.kt$com.w_via.designsystem.input.OutlinedFieldBox.kt</ID>
+    <ID>FinalNewline:PasswordTextField.kt$com.w_via.designsystem.input.PasswordTextField.kt</ID>
+    <ID>FinalNewline:PdfAsyncImage.kt$com.w_via.features.receipt.composeToPdf.PdfAsyncImage.kt</ID>
+    <ID>FinalNewline:PdfGenerator.kt$com.w_via.features.receipt.composeToPdf.PdfGenerator.kt</ID>
+    <ID>FinalNewline:PdfImageMonitor.kt$com.w_via.features.receipt.composeToPdf.PdfImageMonitor.kt</ID>
+    <ID>FinalNewline:PdfPageSize.kt$com.w_via.features.receipt.composeToPdf.PdfPageSize.kt</ID>
+    <ID>FinalNewline:PhoneTextField.kt$com.w_via.designsystem.input.PhoneTextField.kt</ID>
+    <ID>FinalNewline:PillSelection.kt$com.w_via.designsystem.appbuttons.PillSelection.kt</ID>
+    <ID>FinalNewline:PlaceSuggestion.kt$com.w_via.features.home.PlaceSuggestion.kt</ID>
+    <ID>FinalNewline:PrimaryButton.kt$com.w_via.designsystem.appbuttons.PrimaryButton.kt</ID>
+    <ID>FinalNewline:ProgressComponent.kt$.ProgressComponent.kt</ID>
+    <ID>FinalNewline:ReciboSucessoScreen.kt$com.w_via.features.receipt.ReciboSucessoScreen.kt</ID>
+    <ID>FinalNewline:ResultCard.kt$com.w_via.features.home.components.ResultCard.kt</ID>
+    <ID>FinalNewline:RoutesBar.kt$com.w_via.features.home.components.RoutesBar.kt</ID>
+    <ID>FinalNewline:SearchDestinationViewModel.kt$com.w_via.features.home.SearchDestinationViewModel.kt</ID>
+    <ID>FinalNewline:SearchTextField.kt$com.w_via.designsystem.input.SearchTextField.kt</ID>
+    <ID>FinalNewline:Sexo.kt$com.w_via.features.declaration.Sexo.kt</ID>
+    <ID>FinalNewline:Step4ServicoPagamento.kt$com.w_via.features.receipt.steps.Step4ServicoPagamento.kt</ID>
+    <ID>FinalNewline:SupabaseAuthTokenProvider.kt$com.w_via.features.authentication.SupabaseAuthTokenProvider.kt</ID>
+    <ID>FinalNewline:SupabaseModule.kt$com.w_via.features.koin.SupabaseModule.kt</ID>
+    <ID>FinalNewline:TipoLocalObito.kt$com.w_via.features.declaration.TipoLocalObito.kt</ID>
+    <ID>FinalNewline:TollPoint.kt$com.w_via.features.tollservice.TollPoint.kt</ID>
+    <ID>FinalNewline:TollService.kt$com.w_via.features.tollservice.TollService.kt</ID>
+    <ID>FinalNewline:TopBar.kt$com.w_via.features.appnavigation.TopBar.kt</ID>
+    <ID>FinalNewline:Type.kt$com.w_via.ui.theme.Type.kt</ID>
+    <ID>FinalNewline:UploadFileScreen.kt$com.w_via.features.datamycnpj.UploadFileScreen.kt</ID>
+    <ID>FinalNewline:UploadFileViewModel.kt$com.w_via.features.datamycnpj.UploadFileViewModel.kt</ID>
+    <ID>FinalNewline:ValidCPF.kt$.ValidCPF.kt</ID>
+    <ID>FinalNewline:WViaApp.kt$com.w_via.WViaApp.kt</ID>
+    <ID>FinalNewline:state.kt$com.w_via.features.declaration.state.state.kt</ID>
+    <ID>FinalNewline:viewModelModule.kt$com.w_via.features.koin.viewModelModule.kt</ID>
+    <ID>FunctionNaming:AccordionSelect.kt$@Composable fun AccordionSelect( label: String, options: List&lt;String&gt;, selectedValue: String?, onValueSelected: (String) -&gt; Unit, modifier: Modifier = Modifier, state: AccordionSelectState = remember { AccordionSelectState() }, placeholder: String = "Selecione", errorMessage: String? = null, shape: Shape = RoundedCornerShape(16.dp) )</ID>
+    <ID>FunctionNaming:AddressSearchField.kt$@Composable fun AddressSearchField( value: String, label: String, leadingIcon: @Composable () -&gt; Unit, onAddressSelected: (HereSuggestion) -&gt; Unit, userLat: Double = -23.5505, userLng: Double = -46.6333, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:AdvancedMonthCarousel.kt$@OptIn(ExperimentalFoundationApi::class) @Composable fun AdvancedMonthCarousel( modifier: Modifier = Modifier, allowFutureMonths: Boolean = false, onDateSelected: ((year: Int, month: Int) -&gt; Unit)? = null )</ID>
+    <ID>FunctionNaming:AppNavigation.kt$@SuppressLint("UseKtx") @Composable fun AppNavigation( navController: NavHostController, bottomBarPadding: Dp = 0.dp, mapState: MapState? = null, onMapStateChange: (MapState) -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:AutocompleteItems.kt$@Composable fun AutoCompleteTextBar( distance: String, AdressTitle: String, AdressSubtitle: String, modifier: Modifier = Modifier, onClick: () -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:AutocompleteItems.kt$@Composable fun MyLocalizationSuggestion( modifier: Modifier = Modifier, onClick: () -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:AutocompleteTextField.kt$@Composable fun AutocompleteTextField( value: String, onValueChange: (String) -&gt; Unit, suggestions: List&lt;String&gt;, modifier: Modifier = Modifier, maxSuggestions: Int = 8, label: String = "", placeholder: String = "", isError: Boolean = false, supportingText: @Composable (() -&gt; Unit)? = null, keyboardOptions: KeyboardOptions = KeyboardOptions.Default, enabled: Boolean = true, readOnly: Boolean = false, leadingIcon: @Composable (() -&gt; Unit)? = null, trailingIcon: @Composable (() -&gt; Unit)? = null, shape: Shape = OutlinedTextFieldDefaults.shape )</ID>
+    <ID>FunctionNaming:BankNumberField.kt$@Composable fun BankNumberField( value: Long = 0, onValueChange: (Long) -&gt; Unit, modifier: Modifier = Modifier, textColor: Color = MaterialTheme.colorScheme.primary, borderColor: Color = MaterialTheme.colorScheme.outline, backgroundColor: Color = MaterialTheme.colorScheme.surface, enabled: Boolean = true, maxDigits: Int = 13, showSymbol: Boolean = true )</ID>
+    <ID>FunctionNaming:BottomSheetContador.kt$@Composable fun BottomSheetContador( onNumberSelected: (Int) -&gt; Unit, onDismissRequest: () -&gt; Unit, total: Int, title: String )</ID>
+    <ID>FunctionNaming:BottomSheetContador.kt$@Composable private fun NumberItem( number: Int, onNumberSelected: (Int) -&gt; Unit )</ID>
+    <ID>FunctionNaming:CalculatorBoxBottom.kt$@Composable fun CalculatorBoxBottom( onCalcularClick: () -&gt; Unit, onIdaVoltaChange: (Boolean) -&gt; Unit, idaVolta: Boolean, valorKm: Long, onValorKmChange: (Long) -&gt; Unit, valorCombustivel: Long, onValorCombustivelChange: (Long) -&gt; Unit, autonomia: String, onAutonomiaChange: (String) -&gt; Unit, valorAdicional: Long, onValorAdicionalChange: (Long) -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:CalculatorBoxBottom.kt$@Composable private fun AutonomiaIntField( value: String, onValueChange: (String) -&gt; Unit, label: String, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:CalculatorBoxBottom.kt$@Composable private fun ValorComLabel( label: String, value: Long, onValueChange: (Long) -&gt; Unit, surfaceVariant: Color, textColor: Color, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:CalculatorBoxBottom.kt$@Preview(showBackground = true) @Composable fun CalculatorBoxBottomPreview()</ID>
+    <ID>FunctionNaming:CalendarBottom.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun DatePickerBottomSheet( date: LocalDate?, onDateChange: (LocalDate?) -&gt; Unit, onDismiss: () -&gt; Unit, selectableDates: SelectableDates = DatePickerDefaults.AllDates )</ID>
+    <ID>FunctionNaming:CalendarBottom.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun DatePickerField( date: LocalDate?, label: String, onDateChange: (LocalDate?) -&gt; Unit, modifier: Modifier = Modifier.fillMaxWidth(), shape: Shape = OutlinedTextFieldDefaults.shape, colors: TextFieldColors = OutlinedTextFieldDefaults.colors(), selectableDates: SelectableDates = DatePickerDefaults.AllDates )</ID>
+    <ID>FunctionNaming:CardDefault.kt$@Composable fun CardDefault( cardContent: @Composable ColumnScope.() -&gt; Unit )</ID>
+    <ID>FunctionNaming:CloseButton.kt$@Composable fun CloseButton( onClose: () -&gt; Unit, modifier: Modifier = Modifier, backgroundColor: Color = colorBrand.copy(alpha = 0.1f), iconColor: Color = MaterialTheme.colorScheme.outline, size: Dp = 50.dp, iconSize: Dp = size * 0.5f, )</ID>
+    <ID>FunctionNaming:CnpjSearchField.kt$@Composable fun CnpjSearchField( value: String, onValueChange: (formatted: String) -&gt; Unit, onSearchClick: () -&gt; Unit, isLoading: Boolean = false, isError: Boolean = false, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:ConfirmButton.kt$@Composable fun ConfirmButton( onClick: () -&gt; Unit, modifier: Modifier = Modifier, backgroundColor: Color = MaterialTheme.colorScheme.primary, iconColor: Color = Color.White, size: Dp = 50.dp, iconSize: Dp = size * 0.5f, )</ID>
+    <ID>FunctionNaming:ConjugeFilhosSectionScreen.kt$@Composable fun ConjugeFilhosSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:CpfSearchField.kt$@Composable fun CpfSearchField( value: String, onValueChange: (formatted: String) -&gt; Unit, onSearchClick: () -&gt; Unit, isLoading: Boolean = false, isError: Boolean = false, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:CreateReciboScreen.kt$@Composable fun CreateReciboScreen( onNavigateBack: () -&gt; Unit, navController: NavController, viewModel: CreateReciboViewModel = viewModel() )</ID>
+    <ID>FunctionNaming:CreateReciboScreen.kt$@Composable fun StepIndicator( step: Int, currentStep: Int, onClick: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:CustomActionButton.kt$@Composable fun CustomActionButton( onClose: () -&gt; Unit, modifier: Modifier = Modifier, backgroundColor: Color = MaterialTheme.colorScheme.primary, iconColor: Color = MaterialTheme.colorScheme.onPrimary, size: Dp = 100.dp, text: String = "Botão", elevation: Dp = 8.dp, icon: @Composable (modifier: Modifier, tint: Color) -&gt; Unit = { _, _ -&gt; }, )</ID>
+    <ID>FunctionNaming:CustomActionButton.kt$@Preview @Composable fun CustomActionButtonPreview()</ID>
+    <ID>FunctionNaming:CustomBottomSheet.kt$@Composable fun CustomBottomSheet( onDismissRequest: () -&gt; Unit, title: String? = null, colorContent: Color = MaterialTheme.colorScheme.surface, showCloseButton: Boolean = false, content: @Composable ColumnScope.() -&gt; Unit, )</ID>
+    <ID>FunctionNaming:CustomSwitchValues.kt$@Composable fun CustomSwitch( checked: Boolean, onCheckedChange: (Boolean) -&gt; Unit, modifier: Modifier = Modifier, activeColor: Color = colorBrand, )</ID>
+    <ID>FunctionNaming:CustomSwitchValues.kt$@Composable fun CustomSwitchValues( modifier: Modifier = Modifier, initialValue: Boolean = true, onSelectionChange: (Boolean) -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:CustomSwitchValues.kt$@Composable fun IconActive( )</ID>
+    <ID>FunctionNaming:CustomSwitchValues.kt$@Composable fun IconInative( )</ID>
+    <ID>FunctionNaming:CustomTextField.kt$@Composable fun CustomTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, label: String = "", placeholder: String = "", isPassword: Boolean = false, isError: Boolean = false, errorMessage: String = "", keyboardOptions: KeyboardOptions = KeyboardOptions.Default, keyboardActions: KeyboardActions = KeyboardActions.Default, singleLine: Boolean = true, maxLines: Int = 1, maxLength: Int = Int.MAX_VALUE, enabled: Boolean = true, readOnly: Boolean = false, leadingIcon: @Composable (() -&gt; Unit)? = null, showClearButton: Boolean = true, borderRadius: Dp = 22.dp, cursorColor: Color = MaterialTheme.colorScheme.onBackground, backgroundColor: Color = MaterialTheme.colorScheme.surface, focusedBorderColor: Color = MaterialTheme.colorScheme.primary, unfocusedBorderColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f), textColor: Color = MaterialTheme.colorScheme.onSurface, labelColor: Color = MaterialTheme.colorScheme.onSurfaceVariant, placeholderColor: Color = MaterialTheme.colorScheme.outline )</ID>
+    <ID>FunctionNaming:CustomTextFieldComponent.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun CustomTextFieldComponent( value: String, onValueChange: (String) -&gt; Unit, label: String? = null, textColor: Color = MaterialTheme.colorScheme.onSurface, fontSize: Int = 16, backgroundColor: Color = MaterialTheme.colorScheme.surface, borderColor: Color = MaterialTheme.colorScheme.outline, focusedBorderColor: Color = MaterialTheme.colorScheme.primary, labelColor: Color = MaterialTheme.colorScheme.primary, placeholder: String? = null, shape: RoundedCornerShape = RoundedCornerShape(8.dp), modifier: Modifier = Modifier, maxLength: Int? = null, onFocusChanged: (FocusState) -&gt; Unit = {}, keyboardOptions: KeyboardOptions = KeyboardOptions.Default, textAlign: TextAlign = TextAlign.Start, visualTransformation: VisualTransformation = VisualTransformation.None, singleLine: Boolean = true, enabled: Boolean = true )</ID>
+    <ID>FunctionNaming:CustomTextFieldComponent.kt$@Preview(showBackground = true) @Composable fun CustomTextFieldComponentPreview()</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable fun DadosFalecidoSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable private fun BensTab(s: DeclaracaoObitoFormState, viewModel: DeclarationDraftViewModel)</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable private fun CartorioInssTab(s: DeclaracaoObitoFormState, viewModel: DeclarationDraftViewModel)</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable private fun DocumentosTab(s: DeclaracaoObitoFormState, viewModel: DeclarationDraftViewModel)</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable private fun EstadoCivilTab(s: DeclaracaoObitoFormState, viewModel: DeclarationDraftViewModel)</ID>
+    <ID>FunctionNaming:DadosFalecidoSectionScreen.kt$@Composable private fun IdentificacaoTab(s: DeclaracaoObitoFormState, viewModel: DeclarationDraftViewModel)</ID>
+    <ID>FunctionNaming:DadosObitoSectionScreen.kt$@Composable fun DadosObitoSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:DeclaracaoDetalheScreen.kt$@Composable fun DeclaracaoDetalheScreen( navController: NavController? = null, declaracaoId: Long )</ID>
+    <ID>FunctionNaming:DeclaracaoObitoPDFLayout.kt$@Composable fun DeclaracaoObitoPDFLayout(declaracao: DeclaracaoObito)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoPDFLayout.kt$@Preview @Composable fun DeclaracaoObitoPDFLayoutPreview()</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable fun DeclaracaoObitoScreen( viewModel: DeclaracaoObitoViewModel = viewModel(), onConcluir: (DeclaracaoObito) -&gt; Unit, navController: NavController, bottomBarPadding: Dp )</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepBens(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepDeclarante(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepDocumentos(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepEnderecoCartorioInss(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepEstadoCivil(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepFilhos(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepFiliacao(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepIdentificacao(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaracaoObitoScreen.kt$@Composable private fun StepObito(s: DeclaracaoObitoFormState, vm: DeclaracaoObitoViewModel)</ID>
+    <ID>FunctionNaming:DeclaranteSectionScreen.kt$@Composable fun DeclaranteSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:DeclarationBottomSheets.kt$@Composable fun DeclarationConflictBottomSheet( message: String, onDismiss: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:DeclarationBottomSheets.kt$@Composable fun DeclarationDiscardBottomSheet( onDismiss: () -&gt; Unit, onDiscard: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:DeclarationBottomSheets.kt$@Composable fun DeclarationResultBottomSheet( title: String, message: String, onDismiss: () -&gt; Unit, onConfirm: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:DeclarationGridScreen.kt$@Composable fun ActionGridButton( text: String, iconRes: Int, isConfirmed: Boolean, isOptional: Boolean = false, onClick: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:DeclarationGridScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun DeclarationGridScreen( navController: NavController? = null, bottomBarPadding: Dp = 0.dp, viewModel: DeclarationDraftViewModel = viewModel(), )</ID>
+    <ID>FunctionNaming:DeclarationGridScreen.kt$@Preview(showBackground = true) @Composable fun DeclarationGridScreenPreview()</ID>
+    <ID>FunctionNaming:DeclarationScreen.kt$@Composable fun DeclarationScreen( navController: NavController, bottomBarPadding: Dp )</ID>
+    <ID>FunctionNaming:DeclarationSectionScaffold.kt$@Composable fun DeclarationSectionHost( section: DeclarationSection, navController: NavController, viewModel: DeclarationDraftViewModel, content: @Composable (DeclaracaoObitoFormState) -&gt; Unit, )</ID>
+    <ID>FunctionNaming:DeclarationSectionScaffold.kt$@Composable fun DeclarationSectionScaffold( title: String, navController: NavController, onConfirm: () -&gt; Unit, confirmEnabled: Boolean = true, errorMessage: String? = null, content: @Composable ColumnScope.() -&gt; Unit, )</ID>
+    <ID>FunctionNaming:DetailSection.kt$@Composable fun DetailSection( title: String, items: List&lt;Pair&lt;String, String&gt;&gt;, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:DetailSection.kt$@Composable private fun DetailRow(label: String, value: String)</ID>
+    <ID>FunctionNaming:DynamicBlurBox.kt$@Composable fun DynamicBlurBox( modifier: Modifier = Modifier, hazeState: HazeState, isLocked: Boolean = true, fadeColor: Color = Color.White, )</ID>
+    <ID>FunctionNaming:ExcecaoIndicator.kt$@Composable fun ExcecaoIndicator( text: String, onReveal: () -&gt; Unit, modifier: Modifier = Modifier, )</ID>
+    <ID>FunctionNaming:FiliacaoSectionScreen.kt$@Composable fun FiliacaoSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:FinishCreateAuthScreen.kt$@SuppressLint("DefaultLocale") @OptIn(ExperimentalMaterial3Api::class) @Composable fun FinishCreateAuthScreen( navController: NavController, )</ID>
+    <ID>FunctionNaming:HomeRouteScreen.kt$@Composable fun HomeRouteScreen( navController: NavController, bottomBarPadding: Dp, mapState: MapState, onMapStateChange: (MapState) -&gt; Unit, viewModel: MapRouteViewModel = viewModel(factory = MapRouteViewModel.Factory) )</ID>
+    <ID>FunctionNaming:HomeRouteScreen.kt$@Composable private fun BottomSheetRoute( viewModel: MapRouteViewModel, mostrarResultadoCalculo: Boolean, onCalcularRota: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:InfiniteWordCarousel.kt$@Composable private fun WordBlock( word: String, textStyle: TextStyle, textColor: Color, blockColor: Color, horizontalPadding: Dp, blockHeight: Dp, cornerRadius: Dp )</ID>
+    <ID>FunctionNaming:InfiniteWordCarousel.kt$@OptIn(ExperimentalFoundationApi::class) @Composable fun InfiniteWordCarousel( words: List&lt;String&gt;, modifier: Modifier = Modifier, textStyle: TextStyle = MaterialTheme.typography.titleMedium, textColor: Color = MaterialTheme.colorScheme.onPrimary, textSecondaryColor: Color = MaterialTheme.colorScheme.background, blockColor: Color = MaterialTheme.colorScheme.primary, blockSecondaryColor: Color = MaterialTheme.colorScheme.tertiary, spacing: Dp = 8.dp, verticalPadding: Dp = 8.dp, horizontalPadding: Dp = 16.dp, blockHeight: Dp = 40.dp, cornerRadius: Dp = 12.dp, backgroundColor: Color = Color.Transparent, rowSpacing: Dp = 6.dp, reverseSecondRow: Boolean = true )</ID>
+    <ID>FunctionNaming:InfoCard.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun InfoCard( titulo: String, info: String, modifier: Modifier = Modifier, backgroundColor: Color = MaterialTheme.colorScheme.primary, textColor: Color = MaterialTheme.colorScheme.onPrimary, onClick: (() -&gt; Unit)? = null )</ID>
+    <ID>FunctionNaming:InfoCard.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun InfoCardGradient( titulo: String, info: String, gradientColors: List&lt;Color&gt; = listOf( MaterialTheme.colorScheme.primary, MaterialTheme.colorScheme.secondary ), modifier: Modifier = Modifier, textColor: Color = Color.White, onClick: (() -&gt; Unit)? = null )</ID>
+    <ID>FunctionNaming:InfoCard.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun InfoCardWithIcon( titulo: String, info: String, icon: @Composable () -&gt; Unit, modifier: Modifier = Modifier, backgroundColor: Color = MaterialTheme.colorScheme.primary, textColor: Color = MaterialTheme.colorScheme.onPrimary, onClick: (() -&gt; Unit)? = null )</ID>
+    <ID>FunctionNaming:InitStepScreen.kt$@Composable fun InitStepScreen( navController: NavHostController? = null )</ID>
+    <ID>FunctionNaming:InitStepScreen.kt$@Composable fun StepContent( number: String, title: String, description: String, detail: String, imageRes: Int )</ID>
+    <ID>FunctionNaming:InitStepScreen.kt$@Composable fun StepIndicator( currentStep: Int, totalSteps: Int )</ID>
+    <ID>FunctionNaming:InitStepScreen.kt$@Preview( name = "Step Screen", showBackground = true, widthDp = 400, heightDp = 800 ) @Composable fun PreviewStepScreen()</ID>
+    <ID>FunctionNaming:LabeledTextField.kt$@Composable fun LabeledTextField( label: String, value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, keyboardType: KeyboardType = KeyboardType.Text, singleLine: Boolean = true, isError: Boolean = false, supportingText: String? = null )</ID>
+    <ID>FunctionNaming:LabeledTextField.kt$@Composable fun SimNaoSelector( label: String, selected: Boolean?, onSelect: (Boolean) -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:LabeledTextField.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun &lt;T&gt; SingleChoiceSelector( label: String, options: List&lt;T&gt;, selected: T?, onSelect: (T) -&gt; Unit, optionLabel: (T) -&gt; String, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:LegalDocumentScreen.kt$@Composable fun LegalDocumentScreen( title: String, assetFileName: String, navController: NavController, )</ID>
+    <ID>FunctionNaming:LicencasScreen.kt$@Composable fun LicencasScreen( navController: NavController, )</ID>
+    <ID>FunctionNaming:LoginScreen.kt$@Composable fun LoginScreen( navController: NavController? = null, googleViewModel: LoginGoogleViewModel = viewModel() )</ID>
+    <ID>FunctionNaming:LoginScreen.kt$@Preview(showBackground = true) @Composable fun LoginScreenPreview()</ID>
+    <ID>FunctionNaming:MainActivity.kt$@Composable fun BoxScope.SystemBarsScrim(showSolid: Boolean, color: Color)</ID>
+    <ID>FunctionNaming:MainActivity.kt$@OptIn(ExperimentalLayoutApi::class) @Composable fun MainApp()</ID>
+    <ID>FunctionNaming:MapBackground.kt$@Composable fun MapBackground( mapState: MapState, modifier: Modifier = Modifier, viewModel: MapLibreViewModel )</ID>
+    <ID>FunctionNaming:MapLibreImpl.kt$@Composable fun MapLibreImpl( mapState: MapState, modifier: Modifier = Modifier, viewModel: MapLibreViewModel = viewModel() )</ID>
+    <ID>FunctionNaming:MapWrapper.kt$@Composable fun MapWrapper( mapState: MapState, modifier: Modifier = Modifier, viewModel: MapLibreViewModel )</ID>
+    <ID>FunctionNaming:ModalConfirmation.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun ConfirmacaoBottomSheet( onDismissRequest: () -&gt; Unit, onConfirmar: () -&gt; Unit, onCancelar: () -&gt; Unit, textoPrincipal: String, textoSecundario: String, textoComplementar: String )</ID>
+    <ID>FunctionNaming:ModalSheetGenerico.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun ModalBottomSheetWrapper( isVisible: Boolean, onDismiss: () -&gt; Unit, onClose: () -&gt; Unit, sheetContent: @Composable ColumnScope.() -&gt; Unit )</ID>
+    <ID>FunctionNaming:ModalSheetGenerico.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun ModalBottomSheetWrapper( isVisible: Boolean, title: String? = null, onDismiss: () -&gt; Unit, onClose: () -&gt; Unit, sheetContent: @Composable ColumnScope.() -&gt; Unit, showCloseButton: Boolean = true )</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@Composable private fun &lt;T&gt; GenericNumberPicker( items: List&lt;T&gt;, initialValue: T, onItemSelected: (T) -&gt; Unit, displayTransform: (T) -&gt; String, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@Composable private fun CustomDateSelector( initialDateLabel: String, nextDateLabel: String, isNextDay: Boolean, showNextDayOption: Boolean )</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@Composable private fun SelectionHighlight()</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@Composable private fun TimePickerContent( selectedHour: Int, selectedMinute: Int, isNextDay: Boolean, date: LocalDate, minTime: Float?, onHourOptionChanged: (HourOption) -&gt; Unit, onMinuteChanged: (Int) -&gt; Unit, onDismiss: () -&gt; Unit, onConfirm: () -&gt; Unit )</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@Composable private fun TimePreview(hour: Int, minute: Int)</ID>
+    <ID>FunctionNaming:ModalSheetHours.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun TimePickerBottomSheet( date: LocalDate = LocalDate.now(), currentValue: Float? = null, minTime: Float? = null, onDismiss: () -&gt; Unit, onConfirm: (hour: Int, minute: Int, isNextDay: Boolean) -&gt; Unit )</ID>
+    <ID>FunctionNaming:MyCnpjScreen.kt$@Composable fun MyCnpjScreen( navController: NavController, viewModel: UploadFileViewModel = viewModel(), )</ID>
+    <ID>FunctionNaming:MyCnpjScreen.kt$@Preview(showBackground = true, showSystemUi = true) @Composable fun MyCnpjScreenPreview()</ID>
+    <ID>FunctionNaming:MyReciboScreen.kt$@Composable fun MyReciboScreen( bottomBarPadding: Dp, navController: NavController, )</ID>
+    <ID>FunctionNaming:NavigationBar.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun BottomNavigation( startDestination: String, navController: NavController, userScaleFactor: Float = 1f, )</ID>
+    <ID>FunctionNaming:NavigationBar.kt$@Preview(showBackground = true) @Composable fun BottomNavigationPreview()</ID>
+    <ID>FunctionNaming:ObsSectionScreen.kt$@Composable fun ObsSectionScreen( navController: NavController, viewModel: DeclarationDraftViewModel, )</ID>
+    <ID>FunctionNaming:OutlinedFieldBox.kt$@Composable fun OutlinedFieldBox( value: String, label: String, onClick: () -&gt; Unit, modifier: Modifier = Modifier, leadingIcon: (@Composable () -&gt; Unit)? = null, trailingIcon: (@Composable () -&gt; Unit)? = null, borderColor: Color = MaterialTheme.colorScheme.outline, labelColor: Color = MaterialTheme.colorScheme.onSurfaceVariant, textColor: Color = MaterialTheme.colorScheme.onSurface, backgroundColor: Color = MaterialTheme.colorScheme.surface )</ID>
+    <ID>FunctionNaming:PasswordTextField.kt$@Composable fun PasswordTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, label: String = "Senha", placeholder: String = "Digite sua senha" )</ID>
+    <ID>FunctionNaming:PdfAsyncImage.kt$@Composable fun PdfAsyncImage( model: Any?, contentDescription: String?, modifier: Modifier = Modifier, alignment: Alignment = Alignment.Center, contentScale: ContentScale = ContentScale.Fit, alpha: Float = DefaultAlpha, colorFilter: ColorFilter? = null, filterQuality: FilterQuality = DefaultFilterQuality, clipToBound: Boolean = true )</ID>
+    <ID>FunctionNaming:PdfComponents.kt$@Composable fun PdfField(label: String, value: String, modifier: Modifier = Modifier)</ID>
+    <ID>FunctionNaming:PdfComponents.kt$@Composable fun RowPDF(content: @Composable RowScope.() -&gt; Unit)</ID>
+    <ID>FunctionNaming:PdfComponents.kt$@Composable fun SectionPDF(title: String, content: @Composable () -&gt; Unit)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A0(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A1(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A2(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A3(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A4(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A5(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A6(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun A7(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun B4(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun B5(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun BusinessCardEU(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun BusinessCardUS(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun C4(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun C5(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun DL(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Envelope10(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Executive(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun HD1080(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Legal(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Letter(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Photo4x6(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Photo5x7(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Photo8x10(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun PosterLarge(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun PosterMedium(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun PosterSmall(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun Tabloid(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PdfPageSize.kt$PdfPageSize.Companion$fun UHD4K(dpi: Int = 72)</ID>
+    <ID>FunctionNaming:PhoneTextField.kt$@Composable fun PhoneNumberTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, placeholder: String = "(00) 00000-0000", countryCode: String = "+55", onCountryCodeClick: (() -&gt; Unit)? = null, error: String? = null, isError: Boolean = error != null )</ID>
+    <ID>FunctionNaming:PhoneTextField.kt$@Composable fun PhoneNumberTextFieldV2( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, placeholder: String = "(00) 00000-0000", countryCode: String = "+55", onCountryCodeClick: (() -&gt; Unit)? = null, error: String? = null )</ID>
+    <ID>FunctionNaming:PhoneTextField.kt$@Preview @Composable fun PhoneNumberTextFieldPreview()</ID>
+    <ID>FunctionNaming:PillSelection.kt$@Composable fun PillSelection( options: List&lt;String&gt;, selectedIndex: Int, onOptionSelected: (Int) -&gt; Unit, modifier: Modifier = Modifier, pillColor: Color = colorBrand, backgroundColor: Color = Color.LightGray.copy(alpha = 0.3f), textColorSelected: Color = Color.White, textColorUnselected: Color = Color.Gray, pillHorizontalPadding: Dp = 24.dp, pillVerticalPadding: Dp = 8.dp )</ID>
+    <ID>FunctionNaming:PrimaryButton.kt$@Composable fun PrimaryButton( onClick: () -&gt; Unit, modifier: Modifier = Modifier, text: String = "Primary Button", icon: @Composable (() -&gt; Unit)? = null, isEnabled: Boolean = true, isLoading: Boolean = false, showOutline: Boolean = false, containerColorEnable: Color = MaterialTheme.colorScheme.primary, disabledContainerColor: Color = MaterialTheme.colorScheme.primary, contentColor: Color = MaterialTheme.colorScheme.onPrimary, disabledContentColor: Color = MaterialTheme.colorScheme.outline, borderColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.55f), height: Dp = 46.dp, horizontalPadding: Dp = 0.dp, textSize: TextUnit = 18.sp, textWeight: FontWeight = FontWeight.Medium )</ID>
+    <ID>FunctionNaming:PrivacyPolicyScreen.kt$@Composable fun PrivacyPolicyScreen( navController: NavController, onBack: () -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:ProfilePlaceholderScreen.kt$@Composable fun ProfilePlaceholderScreen( title: String, navController: NavController, )</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Composable fun ProfileScreen( navController: NavController, )</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Composable private fun ProfileHeader( fullName: String, email: String, )</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Composable private fun ProfileMenuItem( title: String, icon: ImageVector, onClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Composable private fun SectionTitle(text: String)</ID>
+    <ID>FunctionNaming:ProfileScreen.kt$@Preview(showBackground = true) @Composable fun ProfileScreenPreview()</ID>
+    <ID>FunctionNaming:ProgressComponent.kt$@Composable fun ProgressStepper( currentStep: Int, // 1, 2 ou 3 modifier: Modifier = Modifier, circleSize: Dp = 38.dp, strokeWidth: Dp = 3.dp, activeColor: Color = MaterialTheme.colorScheme.primary, inactiveColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f), textColor: Color = MaterialTheme.colorScheme.primary, showConnectingLine: Boolean = true, connectingLineColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.2f), showCompletedFill: Boolean = true, completedFillColor: Color = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f) )</ID>
+    <ID>FunctionNaming:ReciboDetalheScreen.kt$@Composable fun ReciboDetalheScreen( navController: NavController? = null, reciboId: Long )</ID>
+    <ID>FunctionNaming:ReciboItem.kt$@Composable fun ReciboItem( nomeContratante: String, dataEmissao: String, valorFormatado: String, onItemClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun CampoTextoVertical( label: String = "Texto", conteudo: String = "Texto2", modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun CampoValorTotalPDF( total_pago: String = "", modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun GridPrimeiroPDF( nomeContratante: String, rg_ie: String, cpf_cnpj: String, endereco_contratante: String, tel: String, nome_falecido: String, estado_civil_falecido: String, idade_falecido: String, sexo_falecido: String, naturalidade_falecido: String, uf_falecido: String, rg_falecido: String, cpf_falecido: String, filiacao_falecido: String, local_funeral: String, hora_saida_funeral: String, dia_funeral: String, cemiterio_sepultamento: String )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun GridSegundoPDF( quantidade: String, descricao: String, unidade: String, valor: String, )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun GridTerceiroPDF( total_pago: String, valor_por_extenso: String, ass_contratante: String, ass_contratante2: String, ass_contratante3: String, n_cheque: String, valor_cheque: String, banco: String, agencia: String, rg_contratante: String, emitente_cheque: String, data_pagamento: String, identificadorUnico: String )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun ReciboPDFLayout(recibo: Recibo)</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun RowDescription(text1: String, text2: String, text3: String, text4: String)</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Composable fun TextSimple( text: String = "Texto", fontSize: Int = 9, textAlign: TextAlign = TextAlign.Start, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:ReciboPDFLayout.kt$@Preview @Composable fun ReciboPDFLayoutPreview()</ID>
+    <ID>FunctionNaming:ReciboSucessoScreen.kt$@Composable fun InfoRow(icon: ImageVector, label: String, value: String)</ID>
+    <ID>FunctionNaming:ReciboSucessoScreen.kt$@Composable fun ReciboSucessoScreen( navController: NavHostController? = null, reciboId: String? = null, documentType: String = "Recibo", backRoute: String = Routes.MEUS_RECIBOS, shareTitle: String = "Compartilhar recibo", viewModel: ReciboSucessoViewModel = koinViewModel() )</ID>
+    <ID>FunctionNaming:ReciboSucessoScreen.kt$@Composable private fun ReciboSucessoContent( pdfUri: Uri, pdfName: String, pdfSize: String, generatedAt: String, documentType: String, shareTitle: String, isAnimating: Boolean, context: android.content.Context )</ID>
+    <ID>FunctionNaming:ResultCard.kt$@Composable fun AnimatedNumberText( targetValue: String, modifier: Modifier = Modifier, color: Color = Color.White, fontSize: Int = 14, fontWeight: FontWeight = FontWeight.Normal )</ID>
+    <ID>FunctionNaming:ResultCard.kt$@Composable fun ResultCard( modifier: Modifier = Modifier, onClickAction: (() -&gt; Unit)? = null, column1Items: List&lt;ListItem&gt;, column2Items: List&lt;ListItem&gt;, costItem: CostProfitItem? = null, // Item de custo profitItem: CostProfitItem? = null // Item de lucro )</ID>
+    <ID>FunctionNaming:RoutesBar.kt$@Composable fun RoutesBar( origemValue: String, destinoValue: String, modifier: Modifier = Modifier, swapAnimationTrigger: Int = 0, onOrigemClick: () -&gt; Unit = {}, onDestinoClick: () -&gt; Unit = {}, onSwapClick: () -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:SearchDestinationScreen.kt$@Composable fun SearchDestinationScreen( navController: NavController, field: String = "destino", viewModel: SearchDestinationViewModel = viewModel( factory = SearchDestinationViewModel.Factory ) )</ID>
+    <ID>FunctionNaming:SearchDestinationScreen.kt$@Composable private fun SearchBarExpanded( query: String, onQueryChange: (String) -&gt; Unit, onBack: () -&gt; Unit, focusRequester: FocusRequester, keyboardController: androidx.compose.ui.platform.SoftwareKeyboardController? )</ID>
+    <ID>FunctionNaming:SearchTextField.kt$@Composable fun SearchTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, placeholder: String = "Pesquisar...", onSearch: (() -&gt; Unit)? = null, borderRadius: Dp = 24.dp )</ID>
+    <ID>FunctionNaming:Step1Contratante.kt$@Composable fun Step1Contratante( nomeContratante: String, onNomeContratanteChange: (String) -&gt; Unit, cpfCnpj: String, onCpfCnpjChange: (String) -&gt; Unit, enderecoContratante: String, onEnderecoContratanteChange: (String) -&gt; Unit, tel: String, onTelChange: (String) -&gt; Unit, email: String, onEmailChange: (String) -&gt; Unit, onNext: () -&gt; Unit, onSearchCNPJ: () -&gt; Unit, isLoadingCNPJ: Boolean, cnpjError: String?, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:Step2Falecido.kt$@Composable fun Step2Falecido( nomeFalecido: String, onNomeFalecidoChange: (String) -&gt; Unit, idadeFalecido: String, onIdadeFalecidoChange: (String) -&gt; Unit, sexoFalecido: String, onSexoFalecidoChange: (String) -&gt; Unit, naturalidadeFalecido: String, onNaturalidadeFalecidoChange: (String) -&gt; Unit, ufFalecido: String, onUfFalecidoChange: (String) -&gt; Unit, rgFalecido: String, onRgFalecidoChange: (String) -&gt; Unit, cpfFalecido: String, onCpfFalecidoChange: (String) -&gt; Unit, filiacaoFalecido: String, onFiliacaoFalecidoChange: (String) -&gt; Unit, diaFuneral: LocalDate?, onDiaFuneralChange: (LocalDate?) -&gt; Unit, onNext: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:Step3Funeral.kt$@Composable fun Step3Funeral( localFuneral: String, onLocalFuneralChange: (String) -&gt; Unit, horaSaidaFuneral: String, onHoraSaidaFuneralChange: (String) -&gt; Unit, diaFuneral: LocalDate?, onDiaFuneralChange: (LocalDate?) -&gt; Unit, cemiterioSepultamento: String, onCemiterioSepultamentoChange: (String) -&gt; Unit, onNext: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:Step4ServicoPagamento.kt$@Composable fun Step4ServicoPagamento( descricao: String, onDescricaoChange: (String) -&gt; Unit, totalPago: Double, onTotalPagoChange: (Double) -&gt; Unit, dataPagamento: String, onDataPagamentoChange: (String) -&gt; Unit, onSaveReceipt: () -&gt; Unit, isGeneratingPdf: Boolean, pdfMessage: String?, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:TextTerms.kt$@Composable fun TextTerms( text: String = "", modifier: Modifier = Modifier, textStyle: TextStyle? = null, textAlign: TextAlign = TextAlign.Justify, color: Color = MaterialTheme.colorScheme.onSurface, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, horizontalPadding: Dp = 12.dp, verticalPadding: Dp = 8.dp, fillMaxWidth: Boolean = true, horizontalArrangement: Arrangement.Horizontal = Arrangement.Center, verticalAlignment: Alignment.Vertical = Alignment.CenterVertically )</ID>
+    <ID>FunctionNaming:Theme.kt$@Composable fun WViaTheme( content: @Composable () -&gt; Unit )</ID>
+    <ID>FunctionNaming:TopBar.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun TopBar( title: String, modifier: Modifier = Modifier, showBackButton: Boolean = false, onBackPress: (() -&gt; Unit)? = null, actions: @Composable (RowScope.() -&gt; Unit)? = null, userScaleFactor: Float = 1f )</ID>
+    <ID>FunctionNaming:TopBar.kt$@Preview(showBackground = true) @Composable fun TopBarNoBackButtonPreview()</ID>
+    <ID>FunctionNaming:TopBar.kt$@Preview(showBackground = true) @Composable fun TopBarPreview()</ID>
+    <ID>FunctionNaming:UFAndCityFields.kt$@Composable fun NaturalDeFields( naturalDe: String, onNaturalDeChange: (String) -&gt; Unit, uf: String?, onUfSelected: (String) -&gt; Unit, municipios: Map&lt;String, List&lt;String&gt;&gt;, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:UFAndCityFields.kt$@Composable fun UFAndCityFields( uf: String?, onUfSelected: (String) -&gt; Unit, city: String, onCityChange: (String) -&gt; Unit, municipios: Map&lt;String, List&lt;String&gt;&gt;, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:UFAndCityFields.kt$@Composable private fun UFAndPlaceFields( placeLabel: String, placeValue: String, onPlaceChange: (String) -&gt; Unit, uf: String?, onUfSelected: (String) -&gt; Unit, municipios: Map&lt;String, List&lt;String&gt;&gt;, modifier: Modifier = Modifier )</ID>
+    <ID>FunctionNaming:UploadFileScreen.kt$@Composable fun UploadFileScreen( navController: NavController, viewModel: UploadFileViewModel = koinViewModel(), onNavigateToCNPJ: (Uri?) -&gt; Unit = {} )</ID>
+    <ID>FunctionNaming:UploadFileScreen.kt$@Preview(showBackground = true, showSystemUi = true) @Composable fun PreviewUploadFileScreen()</ID>
+    <ID>FunctionParameterNaming:AutocompleteItems.kt$AdressSubtitle: String</ID>
+    <ID>FunctionParameterNaming:AutocompleteItems.kt$AdressTitle: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$ass_contratante2: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$ass_contratante3: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$ass_contratante: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$cemiterio_sepultamento: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$cpf_cnpj: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$cpf_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$data_pagamento: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$dia_funeral: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$emitente_cheque: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$endereco_contratante: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$estado_civil_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$filiacao_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$hora_saida_funeral: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$idade_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$local_funeral: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$n_cheque: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$naturalidade_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$nome_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$rg_contratante: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$rg_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$rg_ie: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$sexo_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$total_pago: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$total_pago: String = ""</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$uf_falecido: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$valor_cheque: String</ID>
+    <ID>FunctionParameterNaming:ReciboPDFLayout.kt$valor_por_extenso: String</ID>
+    <ID>FunctionStartOfBodySpacing:SearchDestinationScreen.kt$@Composable fun SearchDestinationScreen( navController: NavController, field: String = "destino", viewModel: SearchDestinationViewModel = viewModel( factory = SearchDestinationViewModel.Factory ) )</ID>
+    <ID>ImplicitDefaultLocale:CompanyInfo.kt$CompanyInfo$String.format("%.2f", shareCapital ?: 0.0)</ID>
+    <ID>ImplicitDefaultLocale:TimeUtils.kt$String.format("%02d:%02d", hours, minutes)</ID>
+    <ID>ImplicitDefaultLocale:UploadFileViewModel.kt$UploadFileViewModel$String.format("%.1f GB", size / (1024.0 * 1024.0 * 1024.0))</ID>
+    <ID>ImplicitDefaultLocale:UploadFileViewModel.kt$UploadFileViewModel$String.format("%.1f KB", size / 1024.0)</ID>
+    <ID>ImplicitDefaultLocale:UploadFileViewModel.kt$UploadFileViewModel$String.format("%.1f MB", size / (1024.0 * 1024.0))</ID>
+    <ID>LongMethod:AppNavigation.kt$@SuppressLint("UseKtx") @Composable fun AppNavigation( navController: NavHostController, bottomBarPadding: Dp = 0.dp, mapState: MapState? = null, onMapStateChange: (MapState) -&gt; Unit = {} )</ID>
+    <ID>LongMethod:CreateReciboScreen.kt$@Composable fun CreateReciboScreen( onNavigateBack: () -&gt; Unit, navController: NavController, viewModel: CreateReciboViewModel = viewModel() )</ID>
+    <ID>LongMethod:CustomTextField.kt$@Composable fun CustomTextField( value: String, onValueChange: (String) -&gt; Unit, modifier: Modifier = Modifier, label: String = "", placeholder: String = "", isPassword: Boolean = false, isError: Boolean = false, errorMessage: String = "", keyboardOptions: KeyboardOptions = KeyboardOptions.Default, keyboardActions: KeyboardActions = KeyboardActions.Default, singleLine: Boolean = true, maxLines: Int = 1, maxLength: Int = Int.MAX_VALUE, enabled: Boolean = true, readOnly: Boolean = false, leadingIcon: @Composable (() -&gt; Unit)? = null, showClearButton: Boolean = true, borderRadius: Dp = 22.dp, cursorColor: Color = MaterialTheme.colorScheme.onBackground, backgroundColor: Color = MaterialTheme.colorScheme.surface, focusedBorderColor: Color = MaterialTheme.colorScheme.primary, unfocusedBorderColor: Color = MaterialTheme.colorScheme.outline.copy(alpha = 0.3f), textColor: Color = MaterialTheme.colorScheme.onSurface, labelColor: Color = MaterialTheme.colorScheme.onSurfaceVariant, placeholderColor: Color = MaterialTheme.colorScheme.outline )</ID>
+    <ID>LongMethod:DeclaracaoDetalheScreen.kt$@Composable fun DeclaracaoDetalheScreen( navController: NavController? = null, declaracaoId: Long )</ID>
+    <ID>LongMethod:DeclaracaoObitoPDFLayout.kt$@Composable fun DeclaracaoObitoPDFLayout(declaracao: DeclaracaoObito)</ID>
+    <ID>LongMethod:DeclarationGridScreen.kt$@OptIn(ExperimentalMaterial3Api::class) @Composable fun DeclarationGridScreen( navController: NavController? = null, bottomBarPadding: Dp = 0.dp, viewModel: DeclarationDraftViewModel = viewModel(), )</ID>
+    <ID>LongMethod:FinishCreateAuthScreen.kt$@SuppressLint("DefaultLocale") @OptIn(ExperimentalMaterial3Api::class) @Composable fun FinishCreateAuthScreen( navController: NavController, )</ID>
+    <ID>LongMethod:HomeRouteScreen.kt$@Composable fun HomeRouteScreen( navController: NavController, bottomBarPadding: Dp, mapState: MapState, onMapStateChange: (MapState) -&gt; Unit, viewModel: MapRouteViewModel = viewModel(factory = MapRouteViewModel.Factory) )</ID>
+    <ID>LongMethod:LoginScreen.kt$@Composable fun LoginScreen( navController: NavController? = null, googleViewModel: LoginGoogleViewModel = viewModel() )</ID>
+    <ID>LongMethod:MapLibreImpl.kt$@Composable fun MapLibreImpl( mapState: MapState, modifier: Modifier = Modifier, viewModel: MapLibreViewModel = viewModel() )</ID>
+    <ID>LongMethod:ModalSheetHours.kt$@Composable private fun TimePickerContent( selectedHour: Int, selectedMinute: Int, isNextDay: Boolean, date: LocalDate, minTime: Float?, onHourOptionChanged: (HourOption) -&gt; Unit, onMinuteChanged: (Int) -&gt; Unit, onDismiss: () -&gt; Unit, onConfirm: () -&gt; Unit )</ID>
+    <ID>LongMethod:PdfGenerator.kt$PdfGenerator$suspend fun generate( outputStream: OutputStream, pageSize: PdfPageSize? = PdfPageSize.A4(72), dpi: Int = 72, maxWidthPx: Int = (8.27 * 72).toInt(), // largura A4 @ 72dpi como padrão margin: Dp = 0.dp, timeout: Long = 3000, pages: List&lt;@Composable () -&gt; Unit&gt; ): Result&lt;String&gt;</ID>
+    <ID>LongMethod:ReciboPDFLayout.kt$@Composable fun GridPrimeiroPDF( nomeContratante: String, rg_ie: String, cpf_cnpj: String, endereco_contratante: String, tel: String, nome_falecido: String, estado_civil_falecido: String, idade_falecido: String, sexo_falecido: String, naturalidade_falecido: String, uf_falecido: String, rg_falecido: String, cpf_falecido: String, filiacao_falecido: String, local_funeral: String, hora_saida_funeral: String, dia_funeral: String, cemiterio_sepultamento: String )</ID>
+    <ID>LongMethod:ReciboPDFLayout.kt$@Composable fun ReciboPDFLayout(recibo: Recibo)</ID>
+    <ID>LongMethod:ReciboSucessoScreen.kt$@Composable private fun ReciboSucessoContent( pdfUri: Uri, pdfName: String, pdfSize: String, generatedAt: String, documentType: String, shareTitle: String, isAnimating: Boolean, context: android.content.Context )</ID>
+    <ID>LongMethod:ResultCard.kt$@Composable fun ResultCard( modifier: Modifier = Modifier, onClickAction: (() -&gt; Unit)? = null, column1Items: List&lt;ListItem&gt;, column2Items: List&lt;ListItem&gt;, costItem: CostProfitItem? = null, // Item de custo profitItem: CostProfitItem? = null // Item de lucro )</ID>
+    <ID>LongMethod:RoutesBar.kt$@Composable fun RoutesBar( origemValue: String, destinoValue: String, modifier: Modifier = Modifier, swapAnimationTrigger: Int = 0, onOrigemClick: () -&gt; Unit = {}, onDestinoClick: () -&gt; Unit = {}, onSwapClick: () -&gt; Unit = {} )</ID>
+    <ID>LongMethod:SearchDestinationScreen.kt$@Composable fun SearchDestinationScreen( navController: NavController, field: String = "destino", viewModel: SearchDestinationViewModel = viewModel( factory = SearchDestinationViewModel.Factory ) )</ID>
+    <ID>LongMethod:Step2Falecido.kt$@Composable fun Step2Falecido( nomeFalecido: String, onNomeFalecidoChange: (String) -&gt; Unit, idadeFalecido: String, onIdadeFalecidoChange: (String) -&gt; Unit, sexoFalecido: String, onSexoFalecidoChange: (String) -&gt; Unit, naturalidadeFalecido: String, onNaturalidadeFalecidoChange: (String) -&gt; Unit, ufFalecido: String, onUfFalecidoChange: (String) -&gt; Unit, rgFalecido: String, onRgFalecidoChange: (String) -&gt; Unit, cpfFalecido: String, onCpfFalecidoChange: (String) -&gt; Unit, filiacaoFalecido: String, onFiliacaoFalecidoChange: (String) -&gt; Unit, diaFuneral: LocalDate?, onDiaFuneralChange: (LocalDate?) -&gt; Unit, onNext: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>LongMethod:Step4ServicoPagamento.kt$@Composable fun Step4ServicoPagamento( descricao: String, onDescricaoChange: (String) -&gt; Unit, totalPago: Double, onTotalPagoChange: (Double) -&gt; Unit, dataPagamento: String, onDataPagamentoChange: (String) -&gt; Unit, onSaveReceipt: () -&gt; Unit, isGeneratingPdf: Boolean, pdfMessage: String?, modifier: Modifier = Modifier )</ID>
+    <ID>LongMethod:UploadFileScreen.kt$@Composable fun UploadFileScreen( navController: NavController, viewModel: UploadFileViewModel = koinViewModel(), onNavigateToCNPJ: (Uri?) -&gt; Unit = {} )</ID>
+    <ID>LongParameterList:CalculatorBoxBottom.kt$( onCalcularClick: () -&gt; Unit, onIdaVoltaChange: (Boolean) -&gt; Unit, idaVolta: Boolean, valorKm: Long, onValorKmChange: (Long) -&gt; Unit, valorCombustivel: Long, onValorCombustivelChange: (Long) -&gt; Unit, autonomia: String, onAutonomiaChange: (String) -&gt; Unit, valorAdicional: Long, onValorAdicionalChange: (Long) -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>LongParameterList:ModalSheetHours.kt$( selectedHour: Int, selectedMinute: Int, isNextDay: Boolean, date: LocalDate, minTime: Float?, onHourOptionChanged: (HourOption) -&gt; Unit, onMinuteChanged: (Int) -&gt; Unit, onDismiss: () -&gt; Unit, onConfirm: () -&gt; Unit )</ID>
+    <ID>LongParameterList:ReciboPDFLayout.kt$( nomeContratante: String, rg_ie: String, cpf_cnpj: String, endereco_contratante: String, tel: String, nome_falecido: String, estado_civil_falecido: String, idade_falecido: String, sexo_falecido: String, naturalidade_falecido: String, uf_falecido: String, rg_falecido: String, cpf_falecido: String, filiacao_falecido: String, local_funeral: String, hora_saida_funeral: String, dia_funeral: String, cemiterio_sepultamento: String )</ID>
+    <ID>LongParameterList:ReciboPDFLayout.kt$( total_pago: String, valor_por_extenso: String, ass_contratante: String, ass_contratante2: String, ass_contratante3: String, n_cheque: String, valor_cheque: String, banco: String, agencia: String, rg_contratante: String, emitente_cheque: String, data_pagamento: String, identificadorUnico: String )</ID>
+    <ID>LongParameterList:ReciboSucessoScreen.kt$( pdfUri: Uri, pdfName: String, pdfSize: String, generatedAt: String, documentType: String, shareTitle: String, isAnimating: Boolean, context: android.content.Context )</ID>
+    <ID>LongParameterList:Step1Contratante.kt$( nomeContratante: String, onNomeContratanteChange: (String) -&gt; Unit, cpfCnpj: String, onCpfCnpjChange: (String) -&gt; Unit, enderecoContratante: String, onEnderecoContratanteChange: (String) -&gt; Unit, tel: String, onTelChange: (String) -&gt; Unit, email: String, onEmailChange: (String) -&gt; Unit, onNext: () -&gt; Unit, onSearchCNPJ: () -&gt; Unit, isLoadingCNPJ: Boolean, cnpjError: String?, modifier: Modifier = Modifier )</ID>
+    <ID>LongParameterList:Step2Falecido.kt$( nomeFalecido: String, onNomeFalecidoChange: (String) -&gt; Unit, idadeFalecido: String, onIdadeFalecidoChange: (String) -&gt; Unit, sexoFalecido: String, onSexoFalecidoChange: (String) -&gt; Unit, naturalidadeFalecido: String, onNaturalidadeFalecidoChange: (String) -&gt; Unit, ufFalecido: String, onUfFalecidoChange: (String) -&gt; Unit, rgFalecido: String, onRgFalecidoChange: (String) -&gt; Unit, cpfFalecido: String, onCpfFalecidoChange: (String) -&gt; Unit, filiacaoFalecido: String, onFiliacaoFalecidoChange: (String) -&gt; Unit, diaFuneral: LocalDate?, onDiaFuneralChange: (LocalDate?) -&gt; Unit, onNext: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>LongParameterList:Step3Funeral.kt$( localFuneral: String, onLocalFuneralChange: (String) -&gt; Unit, horaSaidaFuneral: String, onHoraSaidaFuneralChange: (String) -&gt; Unit, diaFuneral: LocalDate?, onDiaFuneralChange: (LocalDate?) -&gt; Unit, cemiterioSepultamento: String, onCemiterioSepultamentoChange: (String) -&gt; Unit, onNext: () -&gt; Unit, modifier: Modifier = Modifier )</ID>
+    <ID>LongParameterList:Step4ServicoPagamento.kt$( descricao: String, onDescricaoChange: (String) -&gt; Unit, totalPago: Double, onTotalPagoChange: (Double) -&gt; Unit, dataPagamento: String, onDataPagamentoChange: (String) -&gt; Unit, onSaveReceipt: () -&gt; Unit, isGeneratingPdf: Boolean, pdfMessage: String?, modifier: Modifier = Modifier )</ID>
+    <ID>LoopWithTooManyJumpStatements:TollService.kt$TollService$for</ID>
+    <ID>MultiLineIfElse:AdvancedMonthCarousel.kt$Color.Transparent</ID>
+    <ID>MultiLineIfElse:AdvancedMonthCarousel.kt$Color.White.copy(alpha = 0.8f)</ID>
+    <ID>MultiLineIfElse:AdvancedMonthCarousel.kt$MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)</ID>
+    <ID>MultiLineIfElse:AdvancedMonthCarousel.kt$MaterialTheme.colorScheme.outline.copy(alpha = 0.3f)</ID>
+    <ID>MultiLineIfElse:AdvancedMonthCarousel.kt$MaterialTheme.colorScheme.primary</ID>
+    <ID>MultiLineIfElse:CustomSwitchValues.kt$IconActive()</ID>
+    <ID>MultiLineIfElse:CustomSwitchValues.kt$IconInative()</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$"Mostrar senha"</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$"Ocultar senha"</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$Color.Transparent</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$Icons.Default.Visibility</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$Icons.Default.VisibilityOff</ID>
+    <ID>MultiLineIfElse:CustomTextField.kt$MaterialTheme.colorScheme.surfaceDim.copy(alpha = 0.7f)</ID>
+    <ID>MultiLineIfElse:DeclaracaoObitoMapper.kt$null</ID>
+    <ID>MultiLineIfElse:FinishCreateAuthScreen.kt$null</ID>
+    <ID>MultiLineIfElse:HomeRouteScreen.kt$Icons.Default.KeyboardArrowDown</ID>
+    <ID>MultiLineIfElse:HomeRouteScreen.kt$Icons.Default.KeyboardArrowUp</ID>
+    <ID>MultiLineIfElse:HomeRouteScreen.kt$showPermissionDialog = true</ID>
+    <ID>MultiLineIfElse:HomeRouteScreen.kt$showRationaleDialog = true</ID>
+    <ID>MultiLineIfElse:InitStepScreen.kt$Color(0xFFBDBDBD)</ID>
+    <ID>MultiLineIfElse:InitStepScreen.kt$colorBrand</ID>
+    <ID>MultiLineIfElse:MainActivity.kt$BottomNavigation( startDestination = Routes.HOME, navController = navController )</ID>
+    <ID>MultiLineIfElse:MapLibreImpl.kt$Expression.format( Expression.formatEntry( Expression.get("nome"), Expression.FormatOption.formatFontScale(0.9) ), Expression.formatEntry(Expression.literal("\n")), Expression.formatEntry( Expression.get("valor"), Expression.FormatOption.formatFontScale(0.85) ) )</ID>
+    <ID>MultiLineIfElse:MapLibreImpl.kt$Expression.get("valor")</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$((currentValue % 1) * 60).roundToInt()</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$(minTime.toInt() + 1) % 24</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$0</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$10</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$MaterialTheme.colorScheme.onSurface</ID>
+    <ID>MultiLineIfElse:ModalSheetHours.kt$MaterialTheme.colorScheme.onSurfaceVariant</ID>
+    <ID>MultiLineIfElse:NavigationBar.kt$corActive</ID>
+    <ID>MultiLineIfElse:NavigationBar.kt$corInative</ID>
+    <ID>MultiLineIfElse:PhoneTextField.kt$MaterialTheme.colorScheme.error</ID>
+    <ID>MultiLineIfElse:PhoneTextField.kt$MaterialTheme.colorScheme.errorContainer</ID>
+    <ID>MultiLineIfElse:PhoneTextField.kt$MaterialTheme.colorScheme.outline.copy(alpha = 0.3f)</ID>
+    <ID>MultiLineIfElse:PhoneTextField.kt$MaterialTheme.colorScheme.surfaceVariant</ID>
+    <ID>MultiLineIfElse:ProgressComponent.kt$activeColor.copy(alpha = 0.5f)</ID>
+    <ID>MultiLineIfElse:ProgressComponent.kt$connectingLineColor</ID>
+    <ID>MultiLineIfElse:UploadFileScreen.kt$MaterialTheme.colorScheme.outline.copy(alpha = 0.6f)</ID>
+    <ID>MultiLineIfElse:UploadFileScreen.kt$MaterialTheme.colorScheme.primary</ID>
+    <ID>MultiLineIfElse:UploadFileScreen.kt$MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)</ID>
+    <ID>MultiLineIfElse:UploadFileScreen.kt$MaterialTheme.colorScheme.surfaceVariant</ID>
+    <ID>NestedBlockDepth:LoginGoogleViewModel.kt$LoginGoogleViewModel$private fun processCredentialResult(result: GetCredentialResponse)</ID>
+    <ID>NewLineAtEndOfFile:AddressSearchField.kt$com.w_via.features.maps.hereAPI.AddressSearchField.kt</ID>
+    <ID>NewLineAtEndOfFile:AdvancedMonthCarousel.kt$com.w_via.designsystem.AdvancedMonthCarousel.kt</ID>
+    <ID>NewLineAtEndOfFile:AuthTokenProvider.kt$com.w_via.features.authentication.AuthTokenProvider.kt</ID>
+    <ID>NewLineAtEndOfFile:BottomSheetContador.kt$com.w_via.designsystem.bottomsheets.BottomSheetContador.kt</ID>
+    <ID>NewLineAtEndOfFile:CalendarBottom.kt$com.w_via.designsystem.bottomsheets.CalendarBottom.kt</ID>
+    <ID>NewLineAtEndOfFile:CasamentoCartorioInfo.kt$com.w_via.features.declaration.CasamentoCartorioInfo.kt</ID>
+    <ID>NewLineAtEndOfFile:CloseButton.kt$com.w_via.designsystem.appbuttons.CloseButton.kt</ID>
+    <ID>NewLineAtEndOfFile:ConfirmButton.kt$com.w_via.designsystem.appbuttons.ConfirmButton.kt</ID>
+    <ID>NewLineAtEndOfFile:CreateReciboClass.kt$com.w_via.features.receipt.CreateReciboClass.kt</ID>
+    <ID>NewLineAtEndOfFile:CreateReciboViewModel.kt$com.w_via.features.receipt.CreateReciboViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:CustomActionButton.kt$com.w_via.designsystem.appbuttons.CustomActionButton.kt</ID>
+    <ID>NewLineAtEndOfFile:CustomBottomSheet.kt$com.w_via.designsystem.bottomsheets.CustomBottomSheet.kt</ID>
+    <ID>NewLineAtEndOfFile:CustomSwitchValues.kt$com.w_via.designsystem.CustomSwitchValues.kt</ID>
+    <ID>NewLineAtEndOfFile:CustomTextField.kt$com.w_via.designsystem.input.CustomTextField.kt</ID>
+    <ID>NewLineAtEndOfFile:DadosObito.kt$com.w_via.features.declaration.DadosObito.kt</ID>
+    <ID>NewLineAtEndOfFile:DeclaracaoObitoMapperTest.kt$com.w_via.features.declaration.DeclaracaoObitoMapperTest.kt</ID>
+    <ID>NewLineAtEndOfFile:DeclaracaoObitoScreen.kt$com.w_via.features.declaration.DeclaracaoObitoScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:DeclaracaoObitoThresholds.kt$com.w_via.features.declaration.DeclaracaoObitoThresholds.kt</ID>
+    <ID>NewLineAtEndOfFile:DeclaracaoObitoViewModel.kt$com.w_via.features.declaration.DeclaracaoObitoViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:DynamicBlurBox.kt$com.w_via.designsystem.DynamicBlurBox.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$com.w_via.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:FinishCreateAuthScreen.kt$com.w_via.features.authentication.finishlogin.FinishCreateAuthScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:FinishCreateAuthViewModel.kt$com.w_via.features.authentication.finishlogin.FinishCreateAuthViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:FormatDatePatern.kt$com.w_via.features.utils.FormatDatePatern.kt</ID>
+    <ID>NewLineAtEndOfFile:GraphHopperService.kt$com.w_via.features.maps.graphhopperAPI.GraphHopperService.kt</ID>
+    <ID>NewLineAtEndOfFile:HereImpl.kt$com.w_via.features.maps.hereAPI.HereImpl.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeRouteScreen.kt$com.w_via.features.home.HomeRouteScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:HomeRouteViewModel.kt$com.w_via.features.home.HomeRouteViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:InfiniteWordCarousel.kt$com.w_via.designsystem.InfiniteWordCarousel.kt</ID>
+    <ID>NewLineAtEndOfFile:InfoCard.kt$com.w_via.designsystem.InfoCard.kt</ID>
+    <ID>NewLineAtEndOfFile:InitStepScreen.kt$com.w_via.features.initscreens.InitStepScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:LabeledTextField.kt$com.w_via.features.declaration.LabeledTextField.kt</ID>
+    <ID>NewLineAtEndOfFile:LocalPdfMonitor.kt$com.w_via.features.receipt.composeToPdf.LocalPdfMonitor.kt</ID>
+    <ID>NewLineAtEndOfFile:LoginScreen.kt$com.w_via.features.authentication.loginAuth.LoginScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:LogoStorage.kt$com.w_via.features.datamycnpj.LogoStorage.kt</ID>
+    <ID>NewLineAtEndOfFile:MainActivity.kt$com.w_via.MainActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:MapLibreImpl.kt$com.w_via.features.maps.mapLibreAPI.MapLibreImpl.kt</ID>
+    <ID>NewLineAtEndOfFile:MapLibreViewModel.kt$com.w_via.features.maps.mapLibreAPI.MapLibreViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:MapState.kt$com.w_via.features.maps.mapLibreAPI.MapState.kt</ID>
+    <ID>NewLineAtEndOfFile:MapWrapper.kt$com.w_via.features.maps.mapLibreAPI.MapWrapper.kt</ID>
+    <ID>NewLineAtEndOfFile:ModalConfirmation.kt$com.w_via.designsystem.bottomsheets.ModalConfirmation.kt</ID>
+    <ID>NewLineAtEndOfFile:NavigationBar.kt$com.w_via.features.appnavigation.NavigationBar.kt</ID>
+    <ID>NewLineAtEndOfFile:NavigationManager.kt$com.w_via.NavigationManager.kt</ID>
+    <ID>NewLineAtEndOfFile:OutlinedFieldBox.kt$com.w_via.designsystem.input.OutlinedFieldBox.kt</ID>
+    <ID>NewLineAtEndOfFile:PasswordTextField.kt$com.w_via.designsystem.input.PasswordTextField.kt</ID>
+    <ID>NewLineAtEndOfFile:PdfAsyncImage.kt$com.w_via.features.receipt.composeToPdf.PdfAsyncImage.kt</ID>
+    <ID>NewLineAtEndOfFile:PdfGenerator.kt$com.w_via.features.receipt.composeToPdf.PdfGenerator.kt</ID>
+    <ID>NewLineAtEndOfFile:PdfImageMonitor.kt$com.w_via.features.receipt.composeToPdf.PdfImageMonitor.kt</ID>
+    <ID>NewLineAtEndOfFile:PdfPageSize.kt$com.w_via.features.receipt.composeToPdf.PdfPageSize.kt</ID>
+    <ID>NewLineAtEndOfFile:PhoneTextField.kt$com.w_via.designsystem.input.PhoneTextField.kt</ID>
+    <ID>NewLineAtEndOfFile:PillSelection.kt$com.w_via.designsystem.appbuttons.PillSelection.kt</ID>
+    <ID>NewLineAtEndOfFile:PlaceSuggestion.kt$com.w_via.features.home.PlaceSuggestion.kt</ID>
+    <ID>NewLineAtEndOfFile:PrimaryButton.kt$com.w_via.designsystem.appbuttons.PrimaryButton.kt</ID>
+    <ID>NewLineAtEndOfFile:ProgressComponent.kt$.ProgressComponent.kt</ID>
+    <ID>NewLineAtEndOfFile:ReciboSucessoScreen.kt$com.w_via.features.receipt.ReciboSucessoScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:ResultCard.kt$com.w_via.features.home.components.ResultCard.kt</ID>
+    <ID>NewLineAtEndOfFile:RoutesBar.kt$com.w_via.features.home.components.RoutesBar.kt</ID>
+    <ID>NewLineAtEndOfFile:SearchDestinationViewModel.kt$com.w_via.features.home.SearchDestinationViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:SearchTextField.kt$com.w_via.designsystem.input.SearchTextField.kt</ID>
+    <ID>NewLineAtEndOfFile:Sexo.kt$com.w_via.features.declaration.Sexo.kt</ID>
+    <ID>NewLineAtEndOfFile:Step4ServicoPagamento.kt$com.w_via.features.receipt.steps.Step4ServicoPagamento.kt</ID>
+    <ID>NewLineAtEndOfFile:SupabaseAuthTokenProvider.kt$com.w_via.features.authentication.SupabaseAuthTokenProvider.kt</ID>
+    <ID>NewLineAtEndOfFile:SupabaseModule.kt$com.w_via.features.koin.SupabaseModule.kt</ID>
+    <ID>NewLineAtEndOfFile:TipoLocalObito.kt$com.w_via.features.declaration.TipoLocalObito.kt</ID>
+    <ID>NewLineAtEndOfFile:TollPoint.kt$com.w_via.features.tollservice.TollPoint.kt</ID>
+    <ID>NewLineAtEndOfFile:TollService.kt$com.w_via.features.tollservice.TollService.kt</ID>
+    <ID>NewLineAtEndOfFile:TopBar.kt$com.w_via.features.appnavigation.TopBar.kt</ID>
+    <ID>NewLineAtEndOfFile:Type.kt$com.w_via.ui.theme.Type.kt</ID>
+    <ID>NewLineAtEndOfFile:UploadFileScreen.kt$com.w_via.features.datamycnpj.UploadFileScreen.kt</ID>
+    <ID>NewLineAtEndOfFile:UploadFileViewModel.kt$com.w_via.features.datamycnpj.UploadFileViewModel.kt</ID>
+    <ID>NewLineAtEndOfFile:ValidCPF.kt$.ValidCPF.kt</ID>
+    <ID>NewLineAtEndOfFile:WViaApp.kt$com.w_via.WViaApp.kt</ID>
+    <ID>NewLineAtEndOfFile:state.kt$com.w_via.features.declaration.state.state.kt</ID>
+    <ID>NewLineAtEndOfFile:viewModelModule.kt$com.w_via.features.koin.viewModelModule.kt</ID>
+    <ID>NoBlankLineBeforeRbrace:AppNavigationRoutes.kt$Routes$ </ID>
+    <ID>NoBlankLineBeforeRbrace:CardDefault.kt$ </ID>
+    <ID>NoBlankLineBeforeRbrace:FinishCreateAuthScreen.kt$ </ID>
+    <ID>NoBlankLineBeforeRbrace:HomeRouteViewModel.kt$MapRouteViewModel$ </ID>
+    <ID>NoBlankLineBeforeRbrace:LabeledTextField.kt$ </ID>
+    <ID>NoBlankLineBeforeRbrace:LoginGoogleViewModel.kt$LoginGoogleViewModel$ </ID>
+    <ID>NoBlankLineBeforeRbrace:ModalSheetHours.kt$ </ID>
+    <ID>NoBlankLineBeforeRbrace:PdfGenerator.kt$PdfGenerator$ </ID>
+    <ID>NoBlankLineBeforeRbrace:UploadFileViewModel.kt$UploadFileViewModel$ </ID>
+    <ID>NoConsecutiveBlankLines:AppNavigation.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:AutocompleteItems.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:BankNumberField.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:CardDefault.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:CustomActionButton.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:FinishCreateAuthScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:HomeRouteScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:InitStepScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:LabeledTextField.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:LoginScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:PdfPageSize.kt$PdfPageSize.Companion$ </ID>
+    <ID>NoConsecutiveBlankLines:PrivacyPolicyScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:ReciboPDFLayout.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:SearchDestinationScreen.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:Step3Funeral.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:TextTerms.kt$ </ID>
+    <ID>NoConsecutiveBlankLines:Theme.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:AppNavigation.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:CalculatorBoxBottom.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:CardDefault.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:CloseButton.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:CustomTextField.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:FinishCreateAuthScreen.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:HomeRouteScreen.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:InitStepScreen.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:MainActivity.kt$MainActivity$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:ModalSheetHours.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:PdfGenerator.kt$PdfGenerator$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:PrivacyPolicyScreen.kt$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:TollService.kt$TollService$ </ID>
+    <ID>NoEmptyFirstLineInMethodBlock:UploadFileScreen.kt$ </ID>
+    <ID>NoMultipleSpaces:FormatDatePatern.kt$ </ID>
+    <ID>NoMultipleSpaces:HomeRouteViewModel.kt$MapRouteViewModel$ </ID>
+    <ID>NoMultipleSpaces:ModalSheetHours.kt$ </ID>
+    <ID>NoMultipleSpaces:MyCnpjScreen.kt$ </ID>
+    <ID>NoMultipleSpaces:ResultCard.kt$ </ID>
+    <ID>NoTrailingSpaces:BankNumberField.kt$ </ID>
+    <ID>NoTrailingSpaces:CNPJFormatter.kt$CNPJFormatter$ </ID>
+    <ID>NoTrailingSpaces:CNPJValidator.kt$CNPJValidator$ </ID>
+    <ID>NoTrailingSpaces:CNPJVisualTransformation.kt$CNPJVisualTransformation$ </ID>
+    <ID>NoTrailingSpaces:CNPJVisualTransformation.kt$CNPJVisualTransformation.&lt;no name provided&gt;$ </ID>
+    <ID>NoTrailingSpaces:CompanyAddress.kt$CompanyAddress$ </ID>
+    <ID>NoTrailingSpaces:CompanyCNAE.kt$CompanyCNAE$ </ID>
+    <ID>NoTrailingSpaces:CompanyContact.kt$CompanyContact$ </ID>
+    <ID>NoTrailingSpaces:CompanyInfo.kt$CompanyInfo$ </ID>
+    <ID>NoTrailingSpaces:CompanyPartner.kt$CompanyPartner$ </ID>
+    <ID>NoTrailingSpaces:CurrencyUtils.kt$CurrencyUtils$ </ID>
+    <ID>NoTrailingSpaces:CustomTextFieldComponent.kt$ </ID>
+    <ID>NoTrailingSpaces:GraphHopperService.kt$GraphHopperService$ </ID>
+    <ID>NoTrailingSpaces:InitStepScreen.kt$ </ID>
+    <ID>NoTrailingSpaces:OpenCNPJClient.kt$OpenCNPJClient$ </ID>
+    <ID>NoTrailingSpaces:OpenCNPJClient.kt$OpenCNPJClient.Companion$ </ID>
+    <ID>NoTrailingSpaces:OpenCNPJResponse.kt$OpenCNPJResponse$ </ID>
+    <ID>NoTrailingSpaces:OpenCNPJService.kt$OpenCNPJService$ </ID>
+    <ID>NoTrailingSpaces:SearchDestinationScreen.kt$ </ID>
+    <ID>NoTrailingSpaces:SearchDestinationViewModel.kt$SearchDestinationViewModel$ </ID>
+    <ID>NoTrailingSpaces:Step3Funeral.kt$ </ID>
+    <ID>NoUnusedImports:DeclaracaoObitoViewModel.kt$com.w_via.features.declaration.DeclaracaoObitoViewModel.kt</ID>
+    <ID>NoUnusedImports:DeclarationGridScreen.kt$com.w_via.features.declaration.createdeclaration.DeclarationGridScreen.kt</ID>
+    <ID>NoUnusedImports:DeclarationRulesTest.kt$com.w_via.features.declaration.DeclarationRulesTest.kt</ID>
+    <ID>NoUnusedImports:DeclarationScreen.kt$com.w_via.features.declaration.DeclarationScreen.kt</ID>
+    <ID>NoUnusedImports:FinishCreateAuthViewModel.kt$com.w_via.features.authentication.finishlogin.FinishCreateAuthViewModel.kt</ID>
+    <ID>NoUnusedImports:FormatDatePatern.kt$com.w_via.features.utils.FormatDatePatern.kt</ID>
+    <ID>NoUnusedImports:LegalDocumentScreen.kt$com.w_via.features.profile.LegalDocumentScreen.kt</ID>
+    <ID>NoUnusedImports:MyCnpjScreen.kt$com.w_via.features.datamycnpj.MyCnpjScreen.kt</ID>
+    <ID>NoUnusedImports:Step4ServicoPagamento.kt$com.w_via.features.receipt.steps.Step4ServicoPagamento.kt</ID>
+    <ID>PackageName:AccordionSelect.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:AccordionSelectStateTest.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:AddressSearchField.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageName:AdvancedMonthCarousel.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:AgeCalculator.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:AgeCalculatorTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:AppDatabase.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:AppNavigation.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageName:AppNavigationRoutes.kt$package com.w_via.features.routes</ID>
+    <ID>PackageName:AuthManager.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageName:AuthTokenProvider.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageName:AutocompleteItems.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageName:AutocompleteLogicTest.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:AutocompleteTextField.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:BankNumberField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:BottomNavItem.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageName:BottomSheetContador.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:BrazilianValidators.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:BrazilianValidatorsTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:CNPJFormatter.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageName:CNPJValidator.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageName:CNPJVisualTransformation.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageName:CPFFormatter.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:CPFFormatterTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:CalculatorBoxBottom.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageName:CalendarBottom.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:CardDefault.kt$package com.w_via.designsystem.cards</ID>
+    <ID>PackageName:CasamentoCartorioInfo.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:CloseButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageName:CnpjSearchField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:Color.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageName:CompanyAddress.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:CompanyCNAE.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:CompanyContact.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:CompanyInfo.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:CompanyPartner.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:ConfirmButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageName:ConjugeFilhosSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:CpfSearchField.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:CreateReciboClass.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:CreateReciboScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:CreateReciboViewModel.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:CurrencyUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:CustomActionButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageName:CustomBottomSheet.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:CustomSwitchValues.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:CustomTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:CustomTextFieldComponent.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:DRAFT_FILE_NAME.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:DadosFalecidoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DadosObito.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DadosObitoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DebounceClickUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:DeclaracaoDao.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:DeclaracaoDetalheScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoEntity.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:DeclaracaoMapper.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:DeclaracaoMapperTest.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:DeclaracaoObitoMapper.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoObitoMapperTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoObitoPDFLayout.kt$package com.w_via.features.declaration.layouts</ID>
+    <ID>PackageName:DeclaracaoObitoScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoObitoThresholds.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoObitoViewModel.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoObitoViewModelTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclaracaoRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:DeclaracaoRepository.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:DeclaranteSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationBottomSheets.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationDraftViewModel.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationDraftViewModelTest.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationFieldErrors.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclarationFieldErrorsTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclarationGridScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationRules.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclarationRulesTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclarationScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:DeclarationSection.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationSectionScaffold.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DeclarationSectionTest.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:DetailSection.kt$package com.w_via.ui.components</ID>
+    <ID>PackageName:DynamicBlurBox.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:ExampleUnitTest.kt$package com.w_via</ID>
+    <ID>PackageName:ExcecaoIndicator.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:FieldValidators.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:FieldValidatorsTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:FiliacaoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:FinishCreateAuthScreen.kt$package com.w_via.features.authentication.finishlogin</ID>
+    <ID>PackageName:FinishCreateAuthViewModel.kt$package com.w_via.features.authentication.finishlogin</ID>
+    <ID>PackageName:FirebaseRoutes.kt$package com.w_via.features.routes</ID>
+    <ID>PackageName:FormatDatePatern.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:GraphHopperService.kt$package com.w_via.features.maps.graphhopperAPI</ID>
+    <ID>PackageName:HereGeocodeService.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageName:HereImpl.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageName:HomeRouteScreen.kt$package com.w_via.features.home</ID>
+    <ID>PackageName:HomeRouteViewModel.kt$package com.w_via.features.home</ID>
+    <ID>PackageName:InfiniteWordCarousel.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:InfoCard.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:InitStepScreen.kt$package com.w_via.features.initscreens</ID>
+    <ID>PackageName:LabeledTextField.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:LegalDocumentScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageName:LicencasScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageName:LocalPdfMonitor.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:LoginGoogleViewModel.kt$package com.w_via.features.authentication.loginAuth</ID>
+    <ID>PackageName:LoginScreen.kt$package com.w_via.features.authentication.loginAuth</ID>
+    <ID>PackageName:LogoStorage.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageName:MainActivity.kt$package com.w_via</ID>
+    <ID>PackageName:MapBackground.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageName:MapLibreImpl.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageName:MapLibreViewModel.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageName:MapState.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageName:MapWrapper.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageName:ModalConfirmation.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:ModalSheetGenerico.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:ModalSheetHours.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageName:MunicipioData.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:MunicipioDataTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:MyCnpjScreen.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageName:MyReciboScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:NavigationBar.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageName:NavigationManager.kt$package com.w_via</ID>
+    <ID>PackageName:ObsSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:OpenCNPJClient.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageName:OpenCNPJResponse.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageName:OpenCNPJService.kt$package com.w_via.opencnpj.api</ID>
+    <ID>PackageName:OutlinedFieldBox.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:PasswordTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:PdfAsyncImage.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PdfComponents.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PdfDocumentGenerator.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PdfGenerator.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PdfImageMonitor.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PdfPageSize.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageName:PhoneTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:PillSelection.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageName:PlaceSuggestion.kt$package com.w_via.features.home</ID>
+    <ID>PackageName:PlaceholderRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:PrimaryButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageName:PrivacyPolicyScreen.kt$package com.w_via.features.initscreens</ID>
+    <ID>PackageName:ProfilePlaceholderScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageName:ProfileScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageName:ReciboDao.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageName:ReciboDetalheScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:ReciboEntity.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageName:ReciboItem.kt$package com.w_via.features.receipt.components</ID>
+    <ID>PackageName:ReciboMapper.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageName:ReciboMapperTest.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageName:ReciboPDFLayout.kt$package com.w_via.features.receipt.layouts</ID>
+    <ID>PackageName:ReciboRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:ReciboRepository.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageName:ReciboSucessoScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:ReciboSucessoViewModel.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageName:ResultCard.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageName:RouteGeometryResult.kt$package com.w_via.features.maps.graphhopperAPI</ID>
+    <ID>PackageName:RoutesBar.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageName:SearchDestinationScreen.kt$package com.w_via.features.home</ID>
+    <ID>PackageName:SearchDestinationViewModel.kt$package com.w_via.features.home</ID>
+    <ID>PackageName:SearchTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageName:SectionDescriptor.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageName:Sexo.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:Step1Contratante.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageName:Step2Falecido.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageName:Step3Funeral.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageName:Step4ServicoPagamento.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageName:SupabaseAuthTokenProvider.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageName:SupabaseModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageName:SyncManager.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:SyncManagerTest.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:SyncOutcome.kt$package com.w_via.features.sync</ID>
+    <ID>PackageName:TextTerms.kt$package com.w_via.designsystem</ID>
+    <ID>PackageName:Theme.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageName:TimeUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageName:TipoLocalObito.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageName:TollPoint.kt$package com.w_via.features.tollservice</ID>
+    <ID>PackageName:TollService.kt$package com.w_via.features.tollservice</ID>
+    <ID>PackageName:TopBar.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageName:Type.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageName:UFAndCityFields.kt$package com.w_via.features.components</ID>
+    <ID>PackageName:UploadFileScreen.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageName:UploadFileViewModel.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageName:UserIdProvider.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageName:UserLocationProvider.kt$package com.w_via.features.maps.location</ID>
+    <ID>PackageName:WViaApp.kt$package com.w_via</ID>
+    <ID>PackageName:databaseModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageName:state.kt$package com.w_via.features.declaration.state</ID>
+    <ID>PackageName:syncModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageName:viewModelModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageNaming:AccordionSelect.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:AccordionSelectStateTest.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:AddressSearchField.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageNaming:AdvancedMonthCarousel.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:AgeCalculator.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:AgeCalculatorTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:AppDatabase.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:AppNavigation.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageNaming:AppNavigationRoutes.kt$package com.w_via.features.routes</ID>
+    <ID>PackageNaming:AuthManager.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageNaming:AuthTokenProvider.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageNaming:AutocompleteItems.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageNaming:AutocompleteLogicTest.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:AutocompleteTextField.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:BankNumberField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:BottomNavItem.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageNaming:BottomSheetContador.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:BrazilianValidators.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:BrazilianValidatorsTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:CNPJFormatter.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageNaming:CNPJValidator.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageNaming:CNPJVisualTransformation.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageNaming:CPFFormatter.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:CPFFormatterTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:CalculatorBoxBottom.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageNaming:CalendarBottom.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:CardDefault.kt$package com.w_via.designsystem.cards</ID>
+    <ID>PackageNaming:CasamentoCartorioInfo.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:CloseButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageNaming:CnpjSearchField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:Color.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageNaming:CompanyAddress.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:CompanyCNAE.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:CompanyContact.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:CompanyInfo.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:CompanyPartner.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:ConfirmButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageNaming:ConjugeFilhosSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:CpfSearchField.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:CreateReciboClass.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:CreateReciboScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:CreateReciboViewModel.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:CurrencyUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:CustomActionButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageNaming:CustomBottomSheet.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:CustomSwitchValues.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:CustomTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:CustomTextFieldComponent.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:DRAFT_FILE_NAME.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:DadosFalecidoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DadosObito.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DadosObitoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DebounceClickUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:DeclaracaoDao.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:DeclaracaoDetalheScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoEntity.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:DeclaracaoMapper.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:DeclaracaoMapperTest.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:DeclaracaoObitoMapper.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoObitoMapperTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoObitoPDFLayout.kt$package com.w_via.features.declaration.layouts</ID>
+    <ID>PackageNaming:DeclaracaoObitoScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoObitoThresholds.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoObitoViewModel.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoObitoViewModelTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclaracaoRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:DeclaracaoRepository.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:DeclaranteSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationBottomSheets.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationDraftViewModel.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationDraftViewModelTest.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationFieldErrors.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclarationFieldErrorsTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclarationGridScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationRules.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclarationRulesTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclarationScreen.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:DeclarationSection.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationSectionScaffold.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DeclarationSectionTest.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:DetailSection.kt$package com.w_via.ui.components</ID>
+    <ID>PackageNaming:DynamicBlurBox.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:ExampleUnitTest.kt$package com.w_via</ID>
+    <ID>PackageNaming:ExcecaoIndicator.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:FieldValidators.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:FieldValidatorsTest.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:FiliacaoSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:FinishCreateAuthScreen.kt$package com.w_via.features.authentication.finishlogin</ID>
+    <ID>PackageNaming:FinishCreateAuthViewModel.kt$package com.w_via.features.authentication.finishlogin</ID>
+    <ID>PackageNaming:FirebaseRoutes.kt$package com.w_via.features.routes</ID>
+    <ID>PackageNaming:FormatDatePatern.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:GraphHopperService.kt$package com.w_via.features.maps.graphhopperAPI</ID>
+    <ID>PackageNaming:HereGeocodeService.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageNaming:HereImpl.kt$package com.w_via.features.maps.hereAPI</ID>
+    <ID>PackageNaming:HomeRouteScreen.kt$package com.w_via.features.home</ID>
+    <ID>PackageNaming:HomeRouteViewModel.kt$package com.w_via.features.home</ID>
+    <ID>PackageNaming:InfiniteWordCarousel.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:InfoCard.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:InitStepScreen.kt$package com.w_via.features.initscreens</ID>
+    <ID>PackageNaming:LabeledTextField.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:LegalDocumentScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageNaming:LicencasScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageNaming:LocalPdfMonitor.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:LoginGoogleViewModel.kt$package com.w_via.features.authentication.loginAuth</ID>
+    <ID>PackageNaming:LoginScreen.kt$package com.w_via.features.authentication.loginAuth</ID>
+    <ID>PackageNaming:LogoStorage.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageNaming:MainActivity.kt$package com.w_via</ID>
+    <ID>PackageNaming:MapBackground.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageNaming:MapLibreImpl.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageNaming:MapLibreViewModel.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageNaming:MapState.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageNaming:MapWrapper.kt$package com.w_via.features.maps.mapLibreAPI</ID>
+    <ID>PackageNaming:ModalConfirmation.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:ModalSheetGenerico.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:ModalSheetHours.kt$package com.w_via.designsystem.bottomsheets</ID>
+    <ID>PackageNaming:MunicipioData.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:MunicipioDataTest.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:MyCnpjScreen.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageNaming:MyReciboScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:NavigationBar.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageNaming:NavigationManager.kt$package com.w_via</ID>
+    <ID>PackageNaming:ObsSectionScreen.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:OpenCNPJClient.kt$package com.w_via.opencnpj</ID>
+    <ID>PackageNaming:OpenCNPJResponse.kt$package com.w_via.opencnpj.model</ID>
+    <ID>PackageNaming:OpenCNPJService.kt$package com.w_via.opencnpj.api</ID>
+    <ID>PackageNaming:OutlinedFieldBox.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:PasswordTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:PdfAsyncImage.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PdfComponents.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PdfDocumentGenerator.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PdfGenerator.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PdfImageMonitor.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PdfPageSize.kt$package com.w_via.features.receipt.composeToPdf</ID>
+    <ID>PackageNaming:PhoneTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:PillSelection.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageNaming:PlaceSuggestion.kt$package com.w_via.features.home</ID>
+    <ID>PackageNaming:PlaceholderRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:PrimaryButton.kt$package com.w_via.designsystem.appbuttons</ID>
+    <ID>PackageNaming:PrivacyPolicyScreen.kt$package com.w_via.features.initscreens</ID>
+    <ID>PackageNaming:ProfilePlaceholderScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageNaming:ProfileScreen.kt$package com.w_via.features.profile</ID>
+    <ID>PackageNaming:ReciboDao.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageNaming:ReciboDetalheScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:ReciboEntity.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageNaming:ReciboItem.kt$package com.w_via.features.receipt.components</ID>
+    <ID>PackageNaming:ReciboMapper.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageNaming:ReciboMapperTest.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageNaming:ReciboPDFLayout.kt$package com.w_via.features.receipt.layouts</ID>
+    <ID>PackageNaming:ReciboRemoteSync.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:ReciboRepository.kt$package com.w_via.features.receipt.data</ID>
+    <ID>PackageNaming:ReciboSucessoScreen.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:ReciboSucessoViewModel.kt$package com.w_via.features.receipt</ID>
+    <ID>PackageNaming:ResultCard.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageNaming:RouteGeometryResult.kt$package com.w_via.features.maps.graphhopperAPI</ID>
+    <ID>PackageNaming:RoutesBar.kt$package com.w_via.features.home.components</ID>
+    <ID>PackageNaming:SearchDestinationScreen.kt$package com.w_via.features.home</ID>
+    <ID>PackageNaming:SearchDestinationViewModel.kt$package com.w_via.features.home</ID>
+    <ID>PackageNaming:SearchTextField.kt$package com.w_via.designsystem.input</ID>
+    <ID>PackageNaming:SectionDescriptor.kt$package com.w_via.features.declaration.createdeclaration</ID>
+    <ID>PackageNaming:Sexo.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:Step1Contratante.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageNaming:Step2Falecido.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageNaming:Step3Funeral.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageNaming:Step4ServicoPagamento.kt$package com.w_via.features.receipt.steps</ID>
+    <ID>PackageNaming:SupabaseAuthTokenProvider.kt$package com.w_via.features.authentication</ID>
+    <ID>PackageNaming:SupabaseModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageNaming:SyncManager.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:SyncManagerTest.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:SyncOutcome.kt$package com.w_via.features.sync</ID>
+    <ID>PackageNaming:TextTerms.kt$package com.w_via.designsystem</ID>
+    <ID>PackageNaming:Theme.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageNaming:TimeUtils.kt$package com.w_via.features.utils</ID>
+    <ID>PackageNaming:TipoLocalObito.kt$package com.w_via.features.declaration</ID>
+    <ID>PackageNaming:TollPoint.kt$package com.w_via.features.tollservice</ID>
+    <ID>PackageNaming:TollService.kt$package com.w_via.features.tollservice</ID>
+    <ID>PackageNaming:TopBar.kt$package com.w_via.features.appnavigation</ID>
+    <ID>PackageNaming:Type.kt$package com.w_via.ui.theme</ID>
+    <ID>PackageNaming:UFAndCityFields.kt$package com.w_via.features.components</ID>
+    <ID>PackageNaming:UploadFileScreen.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageNaming:UploadFileViewModel.kt$package com.w_via.features.datamycnpj</ID>
+    <ID>PackageNaming:UserIdProvider.kt$package com.w_via.features.declaration.data</ID>
+    <ID>PackageNaming:UserLocationProvider.kt$package com.w_via.features.maps.location</ID>
+    <ID>PackageNaming:WViaApp.kt$package com.w_via</ID>
+    <ID>PackageNaming:databaseModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageNaming:state.kt$package com.w_via.features.declaration.state</ID>
+    <ID>PackageNaming:syncModule.kt$package com.w_via.features.koin</ID>
+    <ID>PackageNaming:viewModelModule.kt$package com.w_via.features.koin</ID>
+    <ID>ParameterListWrapping:GraphHopperService.kt$GraphHopperService$( origemLat: Double, origemLng: Double, destinoLat: Double, destinoLng: Double, vehicle: String = "car", incluirDetalhes: Boolean = true )</ID>
+    <ID>ParameterListWrapping:NavigationBar.kt$( startDestination: String, navController: NavController, userScaleFactor: Float = 1f, )</ID>
+    <ID>ParameterListWrapping:TollService.kt$TollService$( lat1: Double, lng1: Double, lat2: Double, lng2: Double )</ID>
+    <ID>ParameterListWrapping:TollService.kt$TollService$( pLat: Double, pLng: Double, aLat: Double, aLng: Double, bLat: Double, bLng: Double )</ID>
+    <ID>PrintStackTrace:PdfDocumentGenerator.kt$PdfDocumentGenerator$e</ID>
+    <ID>PrintStackTrace:SearchDestinationViewModel.kt$SearchDestinationViewModel$e</ID>
+    <ID>PrintStackTrace:UploadFileViewModel.kt$UploadFileViewModel$e</ID>
+    <ID>SpacingAroundCurly:PrivacyPolicyScreen.kt${</ID>
+    <ID>SpacingAroundCurly:SearchDestinationScreen.kt${</ID>
+    <ID>SpacingAroundParens:AutocompleteItems.kt$(</ID>
+    <ID>SpacingAroundParens:CustomSwitchValues.kt$(</ID>
+    <ID>SpacingAroundParens:TopBar.kt$(</ID>
+    <ID>StringTemplate:DeclaracaoDetalheScreen.kt$${declaracaoId}</ID>
+    <ID>StringTemplate:HomeRouteViewModel.kt$MapRouteViewModel$${days}</ID>
+    <ID>StringTemplate:HomeRouteViewModel.kt$MapRouteViewModel$${minutes}</ID>
+    <ID>StringTemplate:ReciboDetalheScreen.kt$${reciboId}</ID>
+    <ID>StringTemplate:UploadFileViewModel.kt$FileUtils$${timestamp}</ID>
+    <ID>TopLevelPropertyNaming:ModalSheetHours.kt$private val ITEM_HEIGHT = 52.dp</ID>
+    <ID>UnusedImports:DeclarationGridScreen.kt$import androidx.compose.foundation.layout.fillMaxWidth</ID>
+    <ID>UnusedImports:DeclarationRulesTest.kt$import org.junit.Assert.assertFalse</ID>
+    <ID>UnusedImports:DeclarationScreen.kt$import androidx.compose.foundation.layout.fillMaxWidth</ID>
+    <ID>UnusedImports:FinishCreateAuthViewModel.kt$import io.github.jan.supabase.auth.user.UserUpdateBuilder</ID>
+    <ID>UnusedImports:FormatDatePatern.kt$import kotlinx.datetime.Instant</ID>
+    <ID>UnusedImports:LegalDocumentScreen.kt$import androidx.compose.foundation.layout.Box</ID>
+    <ID>UnusedImports:LegalDocumentScreen.kt$import androidx.compose.ui.Alignment</ID>
+    <ID>UnusedImports:MyCnpjScreen.kt$import com.w_via.features.routes.Routes</ID>
+    <ID>UnusedImports:Step4ServicoPagamento.kt$import kotlinx.datetime.number</ID>
+    <ID>UnusedParameter:BankNumberField.kt$borderColor: Color = MaterialTheme.colorScheme.outline</ID>
+    <ID>UnusedParameter:CardDefault.kt$cardContent: @Composable ColumnScope.() -&gt; Unit</ID>
+    <ID>UnusedParameter:CreateReciboScreen.kt$onNavigateBack: () -&gt; Unit</ID>
+    <ID>UnusedParameter:CustomSwitchValues.kt$modifier: Modifier = Modifier</ID>
+    <ID>UnusedParameter:DeclaracaoObitoScreen.kt$bottomBarPadding: Dp</ID>
+    <ID>UnusedParameter:DeclaracaoObitoScreen.kt$navController: NavController</ID>
+    <ID>UnusedParameter:DeclarationGridScreen.kt$bottomBarPadding: Dp = 0.dp</ID>
+    <ID>UnusedParameter:InfiniteWordCarousel.kt$textSecondaryColor: Color = MaterialTheme.colorScheme.background</ID>
+    <ID>UnusedParameter:InitStepScreen.kt$number: String</ID>
+    <ID>UnusedParameter:MyCnpjScreen.kt$navController: NavController</ID>
+    <ID>UnusedParameter:NavigationBar.kt$startDestination: String</ID>
+    <ID>UnusedParameter:NavigationBar.kt$userScaleFactor: Float = 1f</ID>
+    <ID>UnusedParameter:PhoneTextField.kt$onCountryCodeClick: (() -&gt; Unit)? = null</ID>
+    <ID>UnusedParameter:PrivacyPolicyScreen.kt$onBack: () -&gt; Unit = {}</ID>
+    <ID>UnusedParameter:ReciboPDFLayout.kt$modifier: Modifier = Modifier</ID>
+    <ID>UnusedParameter:ReciboPDFLayout.kt$total_pago: String</ID>
+    <ID>UnusedParameter:ReciboPDFLayout.kt$valor: String</ID>
+    <ID>UnusedParameter:ReciboPDFLayout.kt$valor_por_extenso: String</ID>
+    <ID>UnusedParameter:TimeUtils.kt$valueInicio: Float?</ID>
+    <ID>UnusedParameter:UploadFileScreen.kt$navController: NavController</ID>
+    <ID>UnusedPrivateMember:AppNavigation.kt$private fun defaultEnter()</ID>
+    <ID>UnusedPrivateMember:AppNavigation.kt$private fun defaultExit()</ID>
+    <ID>UnusedPrivateMember:AppNavigation.kt$private fun defaultPopEnter()</ID>
+    <ID>UnusedPrivateMember:AppNavigation.kt$private fun defaultPopExit()</ID>
+    <ID>UnusedPrivateMember:BankNumberField.kt$private fun calculateNewCursorPosition( oldText: String, newText: String, oldSelection: TextRange, newSelection: TextRange ): Int</ID>
+    <ID>UnusedPrivateMember:DeclarationDraftViewModelTest.kt$DeclarationDraftViewModelTest$private fun completeFalecido()</ID>
+    <ID>UnusedPrivateMember:FormatDatePatern.kt$@OptIn(ExperimentalTime::class) //fun formatarDataPadrao(date: Any?): String { // return when (date) { // is Timestamp -&gt; { // val instant = Instant.fromEpochSeconds(date.seconds, date.nanoseconds) // val localDate = instant.toLocalDateTime(TimeZone.currentSystemDefault()).date // formatarLocalDate(localDate) // } // is String -&gt; { // try { // val localDate = LocalDate.parse(date) // formatarLocalDate(localDate) // } catch (e: Exception) { // date // } // } // is LocalDate -&gt; formatarLocalDate(date) // is Instant -&gt; { // val localDate = date.toLocalDateTime(TimeZone.currentSystemDefault()).date // formatarLocalDate(localDate) // } // else -&gt; "" // } //} private fun formatarLocalDate(date: LocalDate): String</ID>
+    <ID>UnusedPrivateMember:PdfGenerator.kt$PdfGenerator$@Deprecated("Obsolete") private fun Int.toDp(dpi: Int): Dp</ID>
+    <ID>UnusedPrivateProperty:BankNumberField.kt$val newNonDigits = newText.count { !it.isDigit() }</ID>
+    <ID>UnusedPrivateProperty:BankNumberField.kt$val oldNonDigits = oldText.count { !it.isDigit() }</ID>
+    <ID>UnusedPrivateProperty:CreateReciboScreen.kt$var showPreview by remember { mutableStateOf(false) }</ID>
+    <ID>UnusedPrivateProperty:CreateReciboViewModel.kt$CreateReciboViewModel$val sdf = SimpleDateFormat("dd/MM/yyyy", Locale("pt", "BR"))</ID>
+    <ID>UnusedPrivateProperty:DeclaracaoObitoScreen.kt$val progresso = (steps.indexOf(state.step) + 1f) / steps.size</ID>
+    <ID>UnusedPrivateProperty:MainActivity.kt$val context = LocalContext.current</ID>
+    <ID>UnusedPrivateProperty:ModalSheetHours.kt$val finalTime = selectedHour + selectedMinute / 60f</ID>
+    <ID>UnusedPrivateProperty:ProgressComponent.kt$val isFuture = stepNumber &gt; currentStep</ID>
+    <ID>UnusedPrivateProperty:SearchDestinationScreen.kt$val bgAlpha by animateFloatAsState( targetValue = if (visible) 1f else 0f, animationSpec = tween(durationMillis = 250) )</ID>
+    <ID>UnusedPrivateProperty:Theme.kt$val cornerRadios = 1.dp</ID>
+    <ID>UseCheckOrError:PdfGenerator.kt$PdfGenerator$throw IllegalStateException("Context must be an Activity")</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val cemiterio_sepultamento by viewModel.cemiterio_sepultamento.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val cpf_cnpj by viewModel.cpf_cnpj.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val cpf_falecido by viewModel.cpf_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val data_pagamento by viewModel.data_pagamento.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val dia_funeral by viewModel.dia_funeral.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val endereco_contratante by viewModel.endereco_contratante.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val filiacao_falecido by viewModel.filiacao_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val hora_saida_funeral by viewModel.hora_saida_funeral.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val idade_falecido by viewModel.idade_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val local_funeral by viewModel.local_funeral.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val naturalidade_falecido by viewModel.naturalidade_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val nome_falecido by viewModel.nome_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val rg_falecido by viewModel.rg_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val sexo_falecido by viewModel.sexo_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val total_pago by viewModel.total_pago.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboScreen.kt$val uf_falecido by viewModel.uf_falecido.collectAsState()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _cemiterio_sepultamento = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _cpf_cnpj = MutableStateFlow(0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _cpf_falecido = MutableStateFlow(0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _data_pagamento = MutableStateFlow("") // Mudado para String</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _dia_funeral = MutableStateFlow&lt;LocalDate?&gt;(null)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _endereco_contratante = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _filiacao_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _hora_saida_funeral = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _idade_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _local_funeral = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _naturalidade_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _nome_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _rg_contratante = MutableStateFlow(0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _rg_falecido = MutableStateFlow(0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _rg_ie = MutableStateFlow(0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _sexo_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _total_pago = MutableStateFlow(0.0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _uf_falecido = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _valor_cheque = MutableStateFlow(0.0)</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$private val _valor_por_extenso = MutableStateFlow("")</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val cemiterio_sepultamento: StateFlow&lt;String&gt; = _cemiterio_sepultamento.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val cpf_cnpj: StateFlow&lt;Int&gt; = _cpf_cnpj.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val cpf_falecido: StateFlow&lt;Int&gt; = _cpf_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val data_pagamento: StateFlow&lt;String&gt; = _data_pagamento.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val dia_funeral: StateFlow&lt;LocalDate?&gt; = _dia_funeral.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val endereco_contratante: StateFlow&lt;String&gt; = _endereco_contratante.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val filiacao_falecido: StateFlow&lt;String&gt; = _filiacao_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val hora_saida_funeral: StateFlow&lt;String&gt; = _hora_saida_funeral.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val idade_falecido: StateFlow&lt;String&gt; = _idade_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val local_funeral: StateFlow&lt;String&gt; = _local_funeral.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val naturalidade_falecido: StateFlow&lt;String&gt; = _naturalidade_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val nome_falecido: StateFlow&lt;String&gt; = _nome_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val rg_contratante: StateFlow&lt;Int&gt; = _rg_contratante.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val rg_falecido: StateFlow&lt;Int&gt; = _rg_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val rg_ie: StateFlow&lt;Int&gt; = _rg_ie.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val sexo_falecido: StateFlow&lt;String&gt; = _sexo_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val total_pago: StateFlow&lt;Double&gt; = _total_pago.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val uf_falecido: StateFlow&lt;String&gt; = _uf_falecido.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val valor_cheque: StateFlow&lt;Double&gt; = _valor_cheque.asStateFlow()</ID>
+    <ID>VariableNaming:CreateReciboViewModel.kt$CreateReciboViewModel$val valor_por_extenso: StateFlow&lt;String&gt; = _valor_por_extenso.asStateFlow()</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val AUTONOMIA_KEY = stringPreferencesKey("autonomia")</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val IDA_VOLTA_KEY = booleanPreferencesKey("ida_volta")</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val MODAL_EXPANDED_KEY = booleanPreferencesKey("modal_expanded")</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val VALOR_ADC_KEY = longPreferencesKey("valor_adicional")</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val VALOR_COMB_KEY = longPreferencesKey("valor_combustivel")</ID>
+    <ID>VariableNaming:HomeRouteViewModel.kt$MapRouteViewModel$private val VALOR_KM_KEY = longPreferencesKey("valor_km")</ID>
+    <ID>VariableNaming:SearchDestinationViewModel.kt$SearchDestinationViewModel$private val HISTORY_KEY = stringPreferencesKey("search_history")</ID>
+    <ID>Wrapping:CreateReciboViewModel.kt$CreateReciboViewModel$;</ID>
+    <ID>Wrapping:DadosObitoSectionScreen.kt$it.copy(horaSepultamento = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(celularDeclarante = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(cepDeclarante = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(cepVelorio = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(cpfDeclarante = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(declaranteTelefone = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(emailDeclarante = v)</ID>
+    <ID>Wrapping:DeclaracaoObitoScreen.kt$it.copy(numeroAtestadoObito = v)</ID>
+    <ID>Wrapping:DeclarationDraftViewModelTest.kt$DeclarationDraftViewModelTest$;</ID>
+    <ID>Wrapping:DeclarationRules.kt$DeclarationRules$(</ID>
+    <ID>Wrapping:FinishCreateAuthViewModel.kt$FinishCreateAuthViewModel.FormState$it.isNotBlank() &amp;&amp; it[0].isUpperCase() &amp;&amp; it.drop(1).all { c -&gt; c.isLowerCase() || c == 'ç' || c == 'ã' || c == 'á' || c == 'é' || c == 'í' || c == 'ó' || c == 'ú' || c == 'â' || c == 'ê' || c == 'ô' || c == 'õ' || c == 'ü' || c == 'à' || c == 'è' || c == 'ì' || c == 'ò' || c == 'ù' || c == 'ä' || c == 'ë' || c == 'ï' || c == 'ö' || c == 'ÿ' || c == 'ñ' || c == ' ' }</ID>
+    <ID>Wrapping:LabeledTextField.kt$(</ID>
+    <ID>Wrapping:PrimaryButton.kt$;</ID>
+    <ID>Wrapping:ResultCard.kt$(</ID>
+  </CurrentIssues>
+</SmellBaseline>

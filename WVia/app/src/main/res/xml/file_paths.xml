@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Exposição do cacheDir para geração de PDFs temporários -->
+    <cache-path
+        name="pdf_cache"
+        path="." />
+</paths>

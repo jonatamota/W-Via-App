@@ -1,0 +1,10 @@
+[
+  { "estado": "SP", "nCRM": "123456", "nome": "AMOSTRA - Dr. Carlos Alberto Ferreira (substituir pela base completa)" },
+  { "estado": "SP", "nCRM": "098765", "nome": "AMOSTRA - Dra. Mariana Souza Lima (substituir pela base completa)" },
+  { "estado": "RJ", "nCRM": "554433", "nome": "AMOSTRA - Dr. Pedro Henrique Alves (substituir pela base completa)" },
+  { "estado": "RJ", "nCRM": "112233", "nome": "AMOSTRA - Dra. Juliana Rocha (substituir pela base completa)" },
+  { "estado": "MG", "nCRM": "887766", "nome": "AMOSTRA - Dr. Ricardo Nunes (substituir pela base completa)" },
+  { "estado": "PR", "nCRM": "445566", "nome": "AMOSTRA - Dra. Camila Duarte (substituir pela base completa)" },
+  { "estado": "RS", "nCRM": "334455", "nome": "AMOSTRA - Dr. Fernando Cardoso (substituir pela base completa)" },
+  { "estado": "BA", "nCRM": "223344", "nome": "AMOSTRA - Dra. Beatriz Santana (substituir pela base completa)" }
+]
